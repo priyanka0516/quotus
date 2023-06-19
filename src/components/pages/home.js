@@ -1,8 +1,7 @@
 import React from "react";
 import './style.css';
 import './responsive.css';
-// import ParticleBackground from "../particleBackground";
-// import Particles, { ISourceOptions } from "react-tsparticles";
+
 import Slider from 'react-slick';
 const Home = () => {
   const settings = {
