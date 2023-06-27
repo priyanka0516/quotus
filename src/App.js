@@ -19,8 +19,8 @@ function App() {
         <Route path="/services" element={<Service/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
         <Route path="/contact" element={<Contact />} />
-          <Route path="/naturopura" element={<Naturopura />} />
-                  <Route path="/innernaturopura" element={<Innernaturopura/>}/>
+        <Route path="/naturopura" element={<Naturopura />} />
+        <Route path="/innernaturopura" element={<Innernaturopura/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

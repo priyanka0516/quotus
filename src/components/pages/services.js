@@ -1,17 +1,12 @@
-
 import React from "react";
-  
 const Service = () => {
   return (
     <>   
-     <div class="single-room">
-        <div class="section-intro">
-            <h2 class="section-intro-title">           
-               Services
-            </h2>
-        </div>     
-    </div> 
-     
+     <div className="single-room">
+      <div className="section-intro">
+        <h2 className="section-intro-title">Services</h2>
+      </div>     
+    </div>   
     <div className="section" id="call-to-action">
         <div className="container">
             <div className="row">

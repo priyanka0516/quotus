@@ -1,15 +1,14 @@
 import React from "react";
 import './style.css';
 import './responsive.css';
-
 import Slider from 'react-slick';
 const Home = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     autoplay: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 6,
     slidesToScroll: 1
   };
 
