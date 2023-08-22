@@ -8,19 +8,27 @@ import Service from './components/pages/services';
 import Contact from './components/pages/contact';
 import Naturopura from './components/pages/naturopura';
 import Innernaturopura from './components/pages/innernaturopura';
+import Cardanopython from './components/pages/cardanopython';
+import Artificial from './components/pages/ai';
+import Sap from './components/pages/sap';
+import Team from './components/pages/team';
 function App() {
   return (
     <div className="App">    
      <BrowserRouter>
      <Header/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home/>}/>
         <Route path ="/about" element={<About/>}/>
-        <Route path="/services" element={<Service/>}/>
+        <Route path="/services" element={<Service />} />
+        <Route path="/team" element={<Team/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/naturopura" element={<Naturopura />} />
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/naturopura" element={<Naturopura/>}/>
         <Route path="/innernaturopura" element={<Innernaturopura/>}/>
+        <Route path="/cardanopython" element={<Cardanopython />} />
+        <Route path="/ai" element={<Artificial />} />
+        <Route path="/sap" element={<Sap/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

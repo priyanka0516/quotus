@@ -11,7 +11,7 @@ const Naturopura = () => {
             <h2 className="section-intro-title">Naturopura</h2>
         </div>     
     </div> 
-    <div className="section" id="about" style={{padding:'0px'}}>
+    <div className="section" id="about">
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
@@ -19,7 +19,11 @@ const Naturopura = () => {
                 </div>
                 <div className="right-text col-lg-7 col-md-12 col-sm-12 mobile-top-fix">
                     <div className="left-heading">
-                        <h1 className="why-us" style={{textAlign:'left'}}>About<span className="content-text"> Naturopura</span></h1>
+                    <h1 className="why-us" style={{ textAlign: 'left' }}>About<span className="content-text"> Naturopura</span></h1>
+                    <div className="main-heading-domain-border-1 text-left">
+                        <div></div>
+                        <div></div>
+                    </div>
                     </div>
                     <div className="left-text">
                         <p>Introducing a hassle-free platform for farmers and consumers in India's agricultural market. This platform transforms the unorganized supply chain into a stable, transparent network. Using technology, farmers, and consumers can easily buy and sell products. It facilitates real-time information, sustainable resource use, streamlined trading, diversified markets, secure partnerships, and an efficient supply chain. Empowering farmers and promoting fair trade, contributes to the growth of India's agricultural sector.</p>

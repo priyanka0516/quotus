@@ -1,12 +1,10 @@
 import React from "react";
 const About = () => {
 return ( 
-<>
+    <>
     <div className="single-room">
         <div className="section-intro">
-            <h2 className="section-intro-title">           
-                About Us
-            </h2>
+            <h2 className="section-intro-title">About Us</h2>
         </div>     
     </div> 
     <div className="section" id="about">
@@ -17,12 +15,14 @@ return (
                 </div>
                 <div className="right-text col-lg-5 col-md-12 col-sm-12 mobile-top-fix">
                     <div className="left-heading">
-                        {/* <h5>Vivamus sodales nisi id ante molestie venenatis</h5> */}
-                        <h1 className="why-us">Why<span className="content-text"> Choose </span>us?</h1>
+                            <h1 className="why-us">Why<span className="content-text"> Choose </span>us?</h1>
+                            <div className="main-heading-domain-border-1 text-center">
+                                <div></div>
+                                <div></div>
+                            </div>
                     </div>
                     <div className="left-text">
                         <p>Quotus Software Solutions Private Limited is a software product developing company where we endeavor on highly proficient, propitious and cost-effective software products. Quotus have highly skilled personnel's offering software products using the best innovative minds, skills and using cutting-edge technologies.<br/><br/> Quotus aspire to provide software solutions to all those are not having a digital presence. In a short period, Quotus Software Solutions Private Limited has developed a business relationship with reputed clients all over India.</p>
-                        {/* <a href="#about2" class="main-button">Discover More</a> */}
                     </div>
                 </div>
             </div>
@@ -33,33 +33,37 @@ return (
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
                     <div className="classes">
-                    <h1 className="why-us">Work<span className="content-text"> Flow</span></h1>
+                            <h1 className="why-us">Work<span className="content-text"> Flow</span></h1>
+                                  <div className="main-heading-domain-border-1 text-center">
+        <div></div>
+        <div></div>
+      </div>
                         <img src="assets/images/line-dec.png" alt=""/>
                         <p>Our workflow is inclusive for all, from conceptualization to post production we follow an agile and iterative development approach to provide you with solutions that will boost your business development.</p>
                     </div>
                 </div>
             </div>
             <div className="row" id="tabs">
-              <div className="col-lg-5">
+                <div className="col-lg-5">
                 <ul>
-                  <li><span><img className="our-plan" src={require('./../images/strategy.png')} alt=""/>Strategy & Planning</span></li>
-                  <li><span><img  className="our-plan" src={require('./../images/ui-design.png')} alt=""/>Website Designing</span></li>
-                  <li><span><img  className="our-plan" src={require('./../images/agile.png')}  alt=""/>Development</span></li>
-                  <li><span><img  className="our-plan" src={require('./../images/test.png')}  alt=""/>Manual Testing</span></li>
-                  <div className="main-rounded-button"><span>Start a Project with us</span></div>
+                    <li><span><img className="our-plan" src={require('./../images/strategy.png')} alt=""/>Strategy & Planning</span></li>
+                    <li><span><img className="our-plan" src={require('./../images/ui-design.png')} alt=""/>Website Designing</span></li>
+                    <li><span><img className="our-plan" src={require('./../images/agile.png')}  alt=""/>Development</span></li>
+                    <li><span><img className="our-plan" src={require('./../images/test.png')}  alt=""/>Manual Testing</span></li>
+                    {/* <div className="main-rounded-button"><span>Start a Project with us</span></div> */}
                 </ul>
-              </div>
-              <div className="col-lg-7">
-                <div className='tabs-content'>
-                  <div id='tabs-1'>
-                  <img src={require('./../images/about2.png')} alt=""/>
-                  </div>
                 </div>
-              </div>
+            <div className="col-lg-7">
+                <div className='tabs-content'>
+                    <div id='tabs-1' className="paging">
+                        <img src={require('./../images/about2.png')} alt=""/>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </div>
-</>
+    </>
   );
 };
 export default About;

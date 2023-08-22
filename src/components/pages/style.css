@@ -85,16 +85,6 @@ body {
     padding: 0;
 }
 
-/* .navigation.navbar-dark .navbar-nav .nav-link {
-    padding: 7px 0px 7px 0px;
-    margin: 0 22px;
-    color: #000;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
-    border-bottom: #fff solid 3px;
-} */
   #nav {
     font-family: "Poppins", Sans-serif;
     color: #000;
@@ -166,7 +156,55 @@ button:hover{
     margin-left: 0%;
   }
 }
+.sap-content{
+  font-weight: 800;
+  color:#0c5991;
+  padding: 0px 10px;
+}
+blockquote {
+  margin: 0 auto;
+  max-width: 400px;
+  position: relative;
+  /* Added */
+}
 
+blockquote::after,
+blockquote::before {
+  color: #0c5991;
+  font-size: 8rem;
+  line-height: 0.8;
+}
+
+blockquote::after {
+  content: close-quote;
+  vertical-align: bottom;
+  /* Added */
+  position: absolute;
+  right: -15%;
+  bottom: -60px;
+}
+@media (max-width: 600px) {
+  blockquote::after {
+    bottom: unset;
+    right: 0;
+  }
+
+  blockquote::before {
+    left: 0;
+  }
+
+  blockquote p {
+    padding-top: 55px;
+  }
+}
+blockquote::before {
+  content: open-quote;
+  vertical-align: top;
+  /* Added */
+  position: absolute;
+  left: -20%;
+}
+#million:hover { color: #ff9327;}
 /***** Slide Left *****/
 .slide-left {
   animation: 3s slide-left;
@@ -411,7 +449,7 @@ button:hover{
     transition: .5s;
   }
   .inner-service-heading{
-    padding: 20px;
+    padding: 10px 0px 0px 0px;
     text-align: center;
     margin: 0px;
     font-size: 35px;
@@ -486,7 +524,7 @@ button:hover{
   --------------------------------*/
   
   #clients {
-    padding: 20px 0;
+    padding: 40px 0;
     background:#fff;
   }
   
@@ -683,18 +721,14 @@ button:hover{
     font-size: 14px;
     background: #000;
   }
-  
   #footer .footer-top {
-    padding: 60px 60px 60px 60px;
-    /* background: #212933; */
+    padding: 50px 40px 50px 40px;
     background:#0c5991;
-}
-  
+  }
   #footer .footer-top .footer-info {
     margin-bottom: 30px;
     text-align: left;
   }
-  
   #footer .footer-top .footer-info h3 {
     font-size: 34px;
     margin: 0 0 20px 0;
@@ -706,7 +740,6 @@ button:hover{
     letter-spacing: 3px;
     text-transform: uppercase;
   }
-  
   #footer .footer-top .footer-info p {
     font-size: 13px;
     line-height: 24px;
@@ -714,7 +747,6 @@ button:hover{
     font-family: "Poppins", Sans-serif;
     color: #535074;
   }
-  
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
@@ -728,8 +760,7 @@ button:hover{
     width: 40px;
     height: 40px;
     transition: 0.3s;
-  }
-  
+  } 
   #footer .footer-top .social-links a:hover {
     background: #0a98c0;
     color: #fff;
@@ -737,7 +768,6 @@ button:hover{
   .footer-links .vvv{
     margin: 0px 0 0px 0 !important;
   }
-
   #footer .footer-top h4 {
     font-size: 16px;
     font-family: "Poppins", Sans-serif;
@@ -751,12 +781,10 @@ button:hover{
   color:#FFF;
   display: flex;
 }
-  
   #footer .footer-top .footer-links {
     margin-bottom: 30px;
     text-align: left;
   }
-  
   .footermedia{
     margin-right: 10px;
     height: 5%;
@@ -772,47 +800,38 @@ button:hover{
     list-style: none;
     padding: 0;
     margin: 0;
-  }
-  
+  } 
   #footer .footer-top .footer-links ul li {
     padding: 8px 0;
-  }
-  
+  } 
   #footer .footer-top .footer-links ul li:first-child {
     padding-top: 0;
-  }
-  
+  } 
   #footer .footer-top .footer-links ul a {
    color: #fff;
     font-size: 16px;
     font-family: "Poppins", Sans-serif;
     text-decoration: none;
     font-weight: 500;
-  }
-  
+  } 
   #footer .footer-top .footer-links ul a:hover {
     color: #ff9327;
   }
-  
   #footer .footer-top .footer-contact {
     margin-bottom: 30px;
   }
-  
   #footer .footer-top .footer-contact p {
     line-height: 26px;
   }
-  
   #footer .footer-top .footer-newsletter {
     margin-bottom: 30px;
-  }
-  
+  } 
   #footer .footer-top .footer-newsletter input[type="email"] {
     border: 0;
     padding: 6px 8px;
     width: 65%;
     border: 1px solid #d9dde6;
   }
-  
   #footer .footer-top .footer-newsletter input[type="submit"] {
     background: #0c5991;
     border: 1px solid #0c5991;
@@ -823,15 +842,12 @@ button:hover{
     transition: 0.3s;
     cursor: pointer;
   }
-  
   #footer .footer-top .footer-newsletter input[type="submit"]:hover {
     background: #0a98c0;
-  }
-  
+  } 
   #footer .footer-top .form .form-group {
     margin-bottom: 15px;
   }
-  
   #footer .footer-top .form #sendmessage {
     color: #fff;
     background: #1bb1dc;
@@ -841,7 +857,6 @@ button:hover{
     font-weight: 600;
     margin-bottom: 15px;
   }
-  
   #footer .footer-top .form #errormessage {
     color: #fff;
     display: none;
@@ -851,13 +866,11 @@ button:hover{
     font-weight: 600;
     margin-bottom: 15px;
   }
-  
   #footer .footer-top .form #sendmessage.show,
   #footer .footer-top .form #errormessage.show,
   #footer .footer-top .form .show {
     display: block;
   }
-  
   #footer .footer-top .form .validation {
     color: red;
     display: none;
@@ -865,12 +878,10 @@ button:hover{
     font-weight: 400;
     font-size: 13px;
   }
-  
   #footer .footer-top .form label {
     color: #413e66;
     font-weight: 500;
   }
-  
   #footer .footer-top .form input,
   #footer .footer-top .form textarea {
     border-radius: 0;
@@ -878,27 +889,22 @@ button:hover{
     border: 1px solid #dce1ec;
     font-size: 14px;
   }
-  
   #footer .footer-top .form input::-webkit-input-placeholder,
   #footer .footer-top .form textarea::-webkit-input-placeholder {
     color: #a2a0bd;
   }
-  
   #footer .footer-top .form input::-moz-placeholder,
   #footer .footer-top .form textarea::-moz-placeholder {
     color: #a2a0bd;
   }
-  
   #footer .footer-top .form input:-ms-input-placeholder,
   #footer .footer-top .form textarea:-ms-input-placeholder {
     color: #a2a0bd;
   }
-  
   #footer .footer-top .form input::placeholder,
   #footer .footer-top .form textarea::placeholder {
     color: #a2a0bd;
   }
-  
   #footer .footer-top .form button[type="submit"] {
     background: #1bb1dc;
     border: 0;
@@ -907,38 +913,31 @@ button:hover{
     color: #fff;
     transition: 0.3s;
   }
-  
   #footer .footer-top .form button[type="submit"]:hover {
     background: #0a98c0;
     cursor: pointer;
   }
-  
   #footer .copyright {
     text-align: center;
     padding-top: 30px;
     color: #fff;
     font-size: 15px;
   }
-  
   #footer .credits {
     text-align: center;
     font-size: 14px;
     padding-top: 4px;
     color: #8582a8;
   }
-  
   #footer .credits a {
     color: #1bb1dc;
   }
-  
   #footer .credits a:hover {
     color: #0a98c0;
   }
-  
   /*--------------------------------------------------------------
   # Responsive Media Queries
   --------------------------------------------------------------*/
-  
   @media (min-width: 991px) {
     #call-to-action .cta-btn-container {
       display: -webkit-box;
@@ -1083,7 +1082,8 @@ p {
   display: inline-block;
   vertical-align: top;
   margin: 0;
-  color:#606060;
+  color: rgb(0, 0, 0);
+  line-height: 1.88;
   font-size: 14px;
   font-family: "Poppins", Sans-serif;
 }
@@ -1168,11 +1168,11 @@ p {
 /* second */
 .h-trustedcmpny.trustedcmpny {
   /* background: #000!important; */
-  background:  #e7e9f1!important;
+  background: #F3FCFF;
   padding-bottom: 30px;
   width: 100%;
   padding-top: 30px;
-  text-align: center;
+  text-align: left;
   background-repeat: no-repeat!important;
   /* background-size: 100%!important; */
 }
@@ -1185,16 +1185,16 @@ p {
  #million{
   /* color: #fff; */
   color: #0c5991;
-  font-size: 52px;
-  text-align: center;
-  text-transform: uppercase;
-  margin-top: 20px;
+  font-size: 22px;
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 0px;
 }
 .trustedcmpny h2 {
   /* color: #fff; */
   color: #000;
   font-size: 40px;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   margin-top: 20px;
 }
@@ -1209,8 +1209,9 @@ p {
   width: 31%;
 }
 .trustedcmpny ul li p {
-  color: #606060;
+  color: rgb(0, 0, 0);
   font-size: 14px;
+  padding: 0px 10px;
   margin-top: 15px;
 } 
 /* client area */
@@ -1386,11 +1387,41 @@ p {
   background: #00005c;
 }
 #naturo-image{
-  padding: 100px;
+  padding: 10px;
+  animation: 3s slide-right;
+}
+.slide-right {
+  animation: 3s slide-right;
+}
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+/***** Slide Left *****/
+.slide-left {
+  animation: 3s slide-left;
+  margin: 0;
+}
+
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 .map-heading{
   text-align: center;
   font-size: 35px;
+  margin: 0;
   font-weight: 600;
 }
 .content {
@@ -1420,7 +1451,8 @@ p {
   }
 
   .item1 {
-    grid-area: 1/1/2/3;
+    grid-area: 1/1/2/0;
+    /* grid-area: 1/1/2/3; */
   }
 
   .card {
@@ -1538,20 +1570,11 @@ p {
   color: #676a6c;
 }
 /* 
-#about-main .story-container .need-for-dx-container ul, #about-main .story-container .our-tech-container ul, #about-main .story-container .origin-story-container ul, #about-main .story-container .today-container ul {
-  margin-top: 30px;
-  list-style-image: url("https://apimatic.io/img/theme/aboutUs/bullet.svg");
-} */
-#about-main .story-container .need-for-dx-container ul li, #about-main .story-container .our-tech-container ul li, #about-main .story-container .origin-story-container ul li, #about-main .story-container .today-container ul li {
-  line-height: 25px;
-  padding-left: 5px;
-  color: #676a6c;
-}
-/* about */
+
+/*about*/
 .section-intro {
   height: 300px;
-  background:
- url("./../images/inner.jpg");
+  background:url("./../images/inner.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -1836,7 +1859,7 @@ canvas {
   color: var(--grayishBlue);
 }
 .box p {
-  color:#606060;
+  color:rgb(0, 0, 0);
 }
 .box {
   border-radius: 5px;
@@ -2035,7 +2058,7 @@ justify-content: center;
 /* about-us-page */
 .why-us{
   text-align: center;
-  padding: 20px 0px;
+  /* padding: 20px 0px; */
   margin: 0;
   font-weight: 600;
   font-size: 35px;
@@ -2106,12 +2129,15 @@ about
 }
 
 #about .right-text p {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   font-size: 14px;
-  color:#606060;
+  padding: 20px 0px;
+  color:rgb(0, 0, 0);
 }
 
-
+.left-heading{
+  animation-name: slide-left;
+}
 #about h5
  {
   font-size: 26px;
@@ -2136,12 +2162,12 @@ Our Classes
 */
 
 #our-classes {
-  margin-bottom: 140px;
+  margin-bottom: 40px;
 }
 
 #our-classes p {
   font-size: 14px;
-  color:#606060;
+  color:rgb(0, 0, 0);
   line-height: 30px;
   letter-spacing: 0.5px;
 }
@@ -2167,7 +2193,7 @@ Our Classes
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 5px;
   font-size: 14px;
-  color: #606060;
+  color: rgb(0, 0, 0);
   letter-spacing: 0.5px;
   font-weight: 500;
   transition: all 0.3s;
@@ -2258,17 +2284,17 @@ Our Classes
 
 .cta-content p {
   font-size: 14px;
-  color: #606060;
+  color: rgb(0, 0, 0);
   line-height: 26px;
   margin: 15px 0px 25px 0px;
 }
 .bt-service{
   display: inline-block;
-    font-size: 15px;
-    padding: 12px 20px;
-    text-align: center;
-    font-weight: 400;
-    text-transform: uppercase;
+  font-size: 15px;
+  padding: 12px 20px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #fff;
   background: #0c5991;
   border: none;
@@ -2645,6 +2671,7 @@ input[type=submit]:hover {
 .technology1 h3{
   font-weight: 700;
   margin: 20px 0px;
+  color: #fff;
 }
 
 .customAppText {
@@ -2664,14 +2691,16 @@ input[type=submit]:hover {
   /* number of lines to show */
   line-clamp: 2;
   -webkit-box-orient: vertical;
-  color: #3e3e3e;
+  color: #fff;
   font-weight: 400;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
 }
-
+.text-left {
+  text-align: left;
+}
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -2692,7 +2721,7 @@ input[type=submit]:hover {
 }
 /* naturopura page */
 .flutter-hr {
-  padding: 50px 0px;
+  padding: 20px 20px;
 }
 .flutter-hr h3 {
   font: normal normal 600 30px/46px Poppins;
@@ -2701,7 +2730,6 @@ input[type=submit]:hover {
 .flutter-healthcare h5 {
   font: normal normal normal 16px/25px Poppins;
   color: #02539A;
-  white-space: nowrap;
   font-weight: 600;
 }
 .flutter-healthcare h4{
@@ -2710,12 +2738,14 @@ input[type=submit]:hover {
 }
 .flutter-healthcare p {
   font: normal normal normal 15px/25px Poppins;
-  color: #606060;
+  color: rgb(0, 0, 0);
   overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 2;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  -webkit-box-orient: vertical;
 }
 .flutter-healthcare p::after {
   position: absolute;
@@ -2726,6 +2756,17 @@ input[type=submit]:hover {
   height: 6px;
   background-color: #02539A;
 }
+.ai-healthcare {
+  height: 375px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #F8FBFF;
+  padding: 20px 20px;
+  border-radius: 8px;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .flutter-hr a{
   text-decoration: none;
   padding: 10px 0px;
@@ -2733,65 +2774,50 @@ input[type=submit]:hover {
 .animated {
   animation-duration: 1.5s
 }
-/* @keyframes fadeInRight {
-  from {
-    opacity: 0;
-    transform: translate3d(100px, 0, 0)
-  }
-
-  to {
-    opacity: 1;
-    transform: none
-  }
-}
-
-
-#fadeInRight {
-  animation: fadeInRight 2s ease-in-out;
-} */
-
 .flutter-healthcare {
-  height: auto;
-  min-height: 296px;
+  height: 260px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   background-color: #F8FBFF;
-  padding: 50px 30px;
+  padding: 20px 20px;
   border-radius: 8px;
   margin: 16px 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-/* #fadeInUp {
-  animation: fadeInUp 1s ease-in;
+.ai h5 {
+  font: normal normal normal 16px/25px Poppins;
+  color: #02539A;
+  font-weight: 600;
 }
-
-@keyframes fadeInUp {
-  0% {
-    transform: translate(0px, 100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translate(0px, 0);
-    opacity: 1;
-  }
+.ai img{
+  max-width: auto;
+  height: auto;
+  padding: 20px 0px;
 }
- #fadeInLeft {
-  animation: fadeInLeft 1s ease-in,
-} 
-
-@keyframes fadeInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-60px);
-  }
-
-  to {
-    opacity: 1
-  }
-} */
-/* inner */
+.ai p {
+  font: normal normal normal 15px/25px Poppins;
+  color: rgb(0, 0, 0);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  line-clamp: 2;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  -webkit-box-orient: vertical;
+}
+.ai{
+  padding: 20px 20px;
+  border-radius: 8px;
+  margin: 16px 0;
+  display: grid;
+}
+.ai span{
+  font-size: 50px;
+  font-weight: 900;
+  color: #02539A;
+}
+/* inner*/
 .iot_consult_services {
   padding: 2em 0;
 }
@@ -2823,11 +2849,11 @@ input[type=submit]:hover {
 .iot_serv_sec p {
   font-size: 15px;
   font-weight: 400;
-  color: #606060;
+  color: rgb(0, 0, 0);
   margin: 0;
 }
 .serv_cate {
-width: 100%;
+  width: 100%;
   justify-content: space-between;
   margin-top: 1em;
 }
@@ -2838,12 +2864,11 @@ width: 100%;
 .iot_serv_sec ul li {
   position: relative;
   padding-left: 1em;
-    overflow: hidden;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      /* number of lines to show */
-      line-clamp: 2;
-      -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
   list-style-type: none;
 }
 .iot_serv_sec ul li:before {
@@ -2874,4 +2899,250 @@ width: 100%;
   background-color: #0070ad;
   color: #fff;
   border: 2px solid #0070ad !important;
+}
+.Cardanopython-banner{
+  background: url("./../images/Cardano.jpg") center center no-repeat;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pycardano{
+  padding: 50px 30px;
+}
+.pycardano img{
+  height: 250px;
+}
+.pycardano p{
+  line-height: 30px;
+  vertical-align: top;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  word-spacing: 0.4em;
+}
+.features{
+  text-align: center;
+  padding: 30px 30px;
+}
+.featurebox{
+  background: 0 0 no-repeat padding-box #fff;
+  box-shadow: 1px 3px 6px #00000029;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  text-align: left;
+  height: 165px;
+  /* width:100%; */
+}
+#about{
+  padding: 20px 20px;
+}
+.featurebox:hover{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.features h3 {
+  padding: 20px 0px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 35px;
+}
+.featurebox h4{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top:0.5rem;
+  margin-bottom: 0.5rem;
+}
+.featurebox p{
+  word-spacing: 0.4em;
+}
+.why-pycardano {
+  background: #F3FCFF;
+  padding: 50px 30px;
+}
+.domain_heading {
+  margin-bottom: 30px;
+  text-align: center;
+  animation: fade-bottom 1.5s ease-in;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.double-room .section-intro {
+  height: 400px;
+  background: url('./../images/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mission-area {
+  padding: 50px 0px;
+  background-color: #0c5991;
+}
+.technology1 {
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.5s all ease-in-out;
+}
+.all-service {
+  padding: 20px 0px;
+  background-color: #fff;
+}
+.leverage_left {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.section-heads {
+  text-align: center;
+  width: auto;
+  /* max-width: 60%; */
+  animation: fade-bottom 1s ease-in;
+  margin: 0;
+}
+.keyfeature-card h4 {
+  font-size: 16px;
+  /* color: #2790ba; */
+  color: #000;
+  margin: 15px 0;
+  font-weight: 600;
+}
+.why-us-h3 {
+  font-size: 30px;
+  font-weight: 700;
+
+}
+
+.section-heads h3{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+}
+.technology1:hover {
+  padding: 20px;
+  transform: scale(1.1);
+}
+.keyfeature-card{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.keyfeature-card:hover{
+  background-color: #e7e9f1;
+}
+
+.keyfeature-card-row{
+  padding: 20px 0px;
+}
+.main-heading-domain-border-1 div:first-child {
+  background: #00005c;
+  border-radius: 10px;
+  height: 5px;
+  width: 55px;
+  display: inline-block;
+}
+.main-heading-domain-border-1 div:last-child {
+  background: #ff9c16;
+  border-radius: 10px;
+  height: 5px;
+  width: 25px;
+  display: inline-block;
+  margin: auto;
+  margin: auto;
+  margin-left: 5px;
+}
+.sap .section-intro {
+  height: 400px;
+  padding: 50px;
+  background: url('./../images/sap.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team .section-intro {
+  height: 300px;
+  background: url('./../images/team.jpg');
+  background-position: center;
+  overflow: hidden;
+  background-size: cover;
+  /* display: flex;
+  over
+  align-items: center;
+  justify-content: center; */
+}
+.all-tech-sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  transition: 0.5s all ease-in-out;
+}
+.all-tech {
+  text-align: center;
+  padding: 50px;
+  display: inline;
+
+}
+.all-tech-sec h3 {
+  font-size: 20px;
+  font-weight: 700;
+  flex: 0 0 100%;
+  margin: 0;
+  width: 100%;
+  background: #eee;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.all-tech_box {
+  border: #eee solid 1px;
+  text-align: center;
+  padding: 10px;
+  min-height: auto;
+  flex: 0 0 17%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 130px;
+  width: 100px;
+  margin: 10px;
+}
+.all-tech_box_img {
+  min-height: auto;
+}
+.all-tech_box_img img {
+  /* height: 60px; */
+}
+.details{
+  display: inline;
+  text-align: center;
+}
+.details h3{
+  font-weight: 700;
+  font-size:20px;
+}
+.details p{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  color: rgb(0, 0, 0);
+  line-height: 1.88;
+  font-size: 14px;
+  font-family: "Poppins", Sans-serif
+}
+.all-tech_box:hover {
+  transform: scale(1.1);
 }

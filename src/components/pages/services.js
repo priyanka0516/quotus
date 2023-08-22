@@ -25,7 +25,8 @@ const Service = () => {
     <div className="languages">
     <div className="container">
       <div className="row">
-        <h2>Our Technologies</h2>
+            <h2>Our Technologies</h2>
+            
         <div className="col-md-3 col-sm-6 text-center">
         <div className="languages-items">
           <div className="icon-wrapper">
@@ -104,7 +105,11 @@ const Service = () => {
   <div id="inner-services">
       <div className="container">
       <div className="header">
-    <h1 className="inner-service-heading">Services We Are Offering</h1>
+            <h1 className="inner-service-heading">Services We Are Offering</h1>
+                  <div className="main-heading-domain-border-1 text-center">
+        <div></div>
+        <div></div>
+      </div>
   </div>
   <div className="row1-container">
     <div className="box box-down cyan">

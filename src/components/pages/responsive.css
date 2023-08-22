@@ -2,10 +2,16 @@
   .contact-text .decor-left{
     width:65px;
   }
+    .flutter-healthcare {
+      height: auto;
+    }
   .contact-text .decor-right{
     width:65px;
   }
   .trustedcmpny {
+    height: auto;
+  }
+  .featurebox {
     height: auto;
   }
   .h-trustedcmpny.trustedcmpny {   height: auto;
@@ -60,21 +66,6 @@
   margin-top: 5px;
   margin-left: 0px;
 }
-/* .item4 {
- display: none;
-}
-.item3{
-  display: none;
-}
-.item9{
-  display: none;
-}
-.item11{
-  display: none;
-}
-.item10{
-  display: none;
-} */
 .banner-text-1 {
   font-size: 32px;
   padding: 40px 20px 40px 20px;
@@ -93,8 +84,9 @@ display: none;
 #tabs .main-rounded-button span {font-size: 14px;}
 .trustedcmpny h2 {font-size: 32px;}
 .content h1 {
-  font-size: 30px;
+  font-size: 32px;
 }
+.section-heads h3 {font-size: 32px;}
 .trustedcmpny ul {
   display: inline-grid;
   text-align: center;
@@ -191,13 +183,13 @@ display: none;
 }
 .trustedcmpny ul li p {
   font-size: 13px;
-padding: 0px 10px;
-overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 3; /* number of lines to show */
-           line-clamp: 2; 
-   -webkit-box-orient: vertical;
+  padding: 0px 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 2; 
+  -webkit-box-orient: vertical;
 } 
 .wrapper{
   padding: 0;
@@ -216,8 +208,7 @@ overflow: hidden;
   display: none;
 }
 }
-@media (min-width: 1024) and (max-width: 1499px) {
-}
+
 .requirement_para {
   display: block;
   text-align: center;
@@ -232,6 +223,11 @@ overflow: hidden;
 
 
 @media (min-width: 768px) and (max-width: 1023px){
+  .keyfeature-card{
+  margin: 4% 2%;
+  height: auto;
+  min-height: 270px;
+  }
   .banner-text-1 {
     font-size: 52px;
     padding: 60px 0px;
@@ -274,11 +270,11 @@ font-size: 35px;
   margin-top: 15px;
   overflow: hidden;
   text-align: left;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
-           line-clamp: 2; 
-   -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2; 
+  -webkit-box-orient: vertical;
 }
 }
 @media (max-width: 400px) {
@@ -377,44 +373,42 @@ font-size: 35px;
       font-size: 13px;
     }
   }
-    @media(max-width:1400px) {
-      .fashion_industry_innerbox {
-        min-height: 260px;
-      }
-  
-      .development_process_innerboxs ul li {
-        height: 214px;
-      }
-  
-     span.requirement_para {
-        font-size: 12px;
-      }
+  @media(max-width:1400px) {
+    .fashion_industry_innerbox {
+      min-height: 260px;
     }
-         @media(max-width:767px) { 
-          .requirement_para {
-              font-size: 12px;
-            }
-          .development_process_innerboxs ul li:nth-child(1) {
-          position: static;
-        }
-                .development_process_innerboxs ul li {
-                  height: 252px;
-                  width: 100%;
-                }
-      
-            .development_process_innerboxs ul li:nth-child(2) {
-              position: static;
-            }
-                        .development_process_innerboxs ul li:nth-child(3) {
-                          position: static;
-                        }
-                                                    .development_process_innerboxs ul li:nth-child(4) {
-                                                      position: static;
-                                                    }
-                                                                                                            .development_process_innerboxs ul li:nth-child(5) {
-                                                                                                              position: static;
-                                                                                                            }
-          }
+  
+    .development_process_innerboxs ul li {
+      height: 214px;
+    }
+    span.requirement_para {
+      font-size: 12px;
+    }
+  }
+  @media(max-width:767px) { 
+    .requirement_para {
+      font-size: 12px;
+    }
+    .development_process_innerboxs ul li:nth-child(1) {
+      position: static;
+    }
+  .development_process_innerboxs ul li {
+    height: 252px;
+    width: 100%;
+  }
+  .development_process_innerboxs ul li:nth-child(2) {
+    position: static;
+  }
+  .development_process_innerboxs ul li:nth-child(3) {
+    position: static;
+  }
+  .development_process_innerboxs ul li:nth-child(4) {
+    position: static;
+  }
+  .development_process_innerboxs ul li:nth-child(5) {
+    position: static;
+  }
+  }
 
 @media (min-width: 768px) and (max-width: 1023px) 
         { 
@@ -431,4 +425,11 @@ font-size: 35px;
           }
       }
           
-      
+ @media (min-width: 1024px) and (max-width: 1440px){
+  .keyfeature-card{
+  margin: 4% 2%;
+    height: auto;
+    min-height: 300px;
+  }
+
+ }

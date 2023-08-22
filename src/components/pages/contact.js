@@ -95,12 +95,7 @@ class Contact extends React.Component {
       errors: errors
     });
     return formIsValid;
-
-
   }
-
-
-
 render() {
   return (
     <>
@@ -116,60 +111,64 @@ render() {
             {/* <div class="title">Contact Us</div> */}
             <div className="contact-text"><div className="decor-left"><span></span></div><p>Quick Contact</p><div className="decor-right"><span></span></div></div>
             <div className="bottom-text">
-                <p>We’re here to help! Tell us what you’re looking for and we’ll get you connected to the right people.</p>
+                <p>We're here to help! Tell us what you're looking for and we'll get you connected to the right people.</p>
             </div>
         </div>
         </div> 
       </div>
       </div>  
-<div className="adress">
-<div className="container">
-  <div className="row">
-    <div className="col-md-4">
+    <div className="adress">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4">
+            <ul>
+                <li className="contact-loop"><img src={require('./../images/location-pin.png')} alt="location-icon" className="bounce"/></li>
+                <li className="contact-loop"><p className="contact-bold">Visit us</p></li>
+                <li className="contact-loop"><span className="adrs">Arena-3, 3rd Floor,
+                  STPI ELITE Building,<br/>
+                  Gothapatna, Khordha,<br/>
+                  Odisha - 751003.  </span></li>
+            </ul>  
+        </div>
+        <div className="col-md-4">
         <ul>
-            <li className="contact-loop"><img src={require('./../images/location-pin.png')} alt="location-icon" className="bounce"/></li>
-            <li className="contact-loop"><p className="contact-bold">Visit us</p></li>
-            <li className="contact-loop"><span className="adrs">Arena-3, 3rd Floor,
-              STPI ELITE Building,<br/>
-              Gothapatna, Khordha,<br/>
-              Odisha - 751003.  </span></li>
-        </ul>  
-    </div>
-    <div className="col-md-4">
-    <ul>
-      <li className="contact-loop"><img className="bounce" src={require('./../images/phone.png')} alt="phone-icon"/></li>
-      <li className="contact-loop"><p className="contact-bold">Call Here</p></li>
-      <li className="contact-loop"><span className="adrs"><a href="tel:PHONE_NUM"className="adrs"> +91 9777403555</a></span></li>
-    </ul>
-    </div>
-    <div className="col-md-4">
-    <ul>
-      <li className="contact-loop"><img className="bounce" src={require('./../images/gmail.png')} alt="gmail-icon"/></li>
-      <li className="contact-loop"><p className="contact-bold">Mail Here</p></li>
-      <li className="contact-loop"><a href="mailto:info@quotus.co.in" className="adrs">info@quotus.co.in</a></li>
+          <li className="contact-loop"><img className="bounce" src={require('./../images/phone.png')} alt="phone-icon"/></li>
+          <li className="contact-loop"><p className="contact-bold">Call Here</p></li>
+          <li className="contact-loop"><span className="adrs"><a href="tel:PHONE_NUM"className="adrs"> +91 9777403555</a></span></li>
         </ul>
+        </div>
+        <div className="col-md-4">
+        <ul>
+          <li className="contact-loop"><img className="bounce" src={require('./../images/gmail.png')} alt="gmail-icon"/></li>
+          <li className="contact-loop"><p className="contact-bold">Mail Here</p></li>
+          <li className="contact-loop"><a href="mailto:info@quotus.co.in" className="adrs">info@quotus.co.in</a></li>
+            </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-</div>
-<div className="section" id="contact-us">
-        <div className="container">
-            <div className="row">
-             <h1 className="map-heading">Get in Touch with us.</h1>
-             <p className="contact-headline">We are here to help you so, drop your message here.</p>
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                    <div id="map">
-                    <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.188577567174!2d85.7408903143954!3d20.29246011788201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1907e655555555%3A0x3f6fe26d44d5028b!2sQUOTUS%20SOFTWARE%20SOLUTIONS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1669873461046!5m2!1sen!2sin"      
-                      width="100%"
-                      id="myId"
-                      height="500px"
-                      className="myClassname"
-                    />
-                    </div>
-                </div>         
-                <div className="col-lg-6 col-md-6 col-sm-12">
-                    <div className="contact-form">
-                    {/* <form>
+    </div>
+    <div className="section" id="contact-us">
+      <div className="container">
+        <div className="row">
+            <h1 className="map-heading">Get in Touch with us.</h1>
+             <div className="main-heading-domain-border-1 text-center">
+                        <div></div>
+                        <div></div>
+                    </div> 
+          <p className="contact-headline">We are here to help you so, drop your message here.</p>
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div id="map">
+              <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.188577567174!2d85.7408903143954!3d20.29246011788201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1907e655555555%3A0x3f6fe26d44d5028b!2sQUOTUS%20SOFTWARE%20SOLUTIONS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1669873461046!5m2!1sen!2sin"      
+              width="100%"
+              id="myId"
+              height="500px"
+              className="myClassname"
+              />
+            </div>
+          </div>         
+          <div className="col-lg-6 col-md-6 col-sm-12">
+            <div className="contact-form">
+              {/* <form>
                       <div className="row">               
                         <div className="col-75">
                           <input type="text" id="fname" name="firstname" placeholder="Your First name.."/>
@@ -190,24 +189,22 @@ render() {
                         <input type="submit" value="Submit"/>
                         </div>
                       </div>
-                    </form> */}
-                    <form  onSubmit= {this.submituserRegistrationForm} >
-                    <label>Name:</label>
-                    <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange} />
-                    <div className="errorMsg">{this.state.errors.username}</div>
-                    <label>Email ID:</label>
-                    <input type="text" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}  />
-                    <div className="errorMsg">{this.state.errors.emailid}</div>
-                    <label>Mobile No:</label>
-                    <input type="text" name="mobileno" value={this.state.fields.mobileno} onChange={this.handleChange}   />
-                    <div className="errorMsg">{this.state.errors.mobileno}</div>
-                    {/* <input type="password" name="password" value={this.state.fields.password} onChange={this.handleChange} />
-                    <div className="errorMsg">{this.state.errors.password}</div> */}
-                    <input type="submit" className="button"  style={{marginTop:'10px'}}value="Submit"/>
-                    </form>
-                    </div>
-                </div>    
+              </form> */}
+              <form  onSubmit= {this.submituserRegistrationForm} >
+                <label>Name:</label>
+                  <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange} />
+                <div className="errorMsg">{this.state.errors.username}</div>
+                <label>Email ID:</label>
+                  <input type="text" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}  />
+                <div className="errorMsg">{this.state.errors.emailid}</div>
+                <label>Mobile No:</label>
+                  <input type="text" name="mobileno" value={this.state.fields.mobileno} onChange={this.handleChange}   />
+                <div className="errorMsg">{this.state.errors.mobileno}</div>
+                  <input type="submit" className="button" style={{marginTop:'10px'}}value="Submit"/>
+              </form>
             </div>
+          </div>    
+          </div>
         </div>
     </div>
     </>
