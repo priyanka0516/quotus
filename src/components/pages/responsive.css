@@ -1,4 +1,5 @@
 @media (min-width: 0px) and (max-width: 425px){
+  .why-us {font-size: 28;}
   .contact-text .decor-left{
     width:65px;
   }
@@ -122,8 +123,9 @@ display: none;
   font-size: 13px;
 }
 #our-classes p {
-  padding-bottom: 30px;
-  font-size: 13px;
+font-size: 14px;
+  padding: 0px 20px;
+  padding-bottom: 30px
 }
 #our-classes {margin-bottom: 30px;}
 #tabs ul li a {

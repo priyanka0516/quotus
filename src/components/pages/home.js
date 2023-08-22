@@ -32,7 +32,7 @@ const Home = () => {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1
           }
         }
@@ -142,14 +142,14 @@ const Home = () => {
             to develop & manage
             various applications</p>
         </div>
-          </div>
+        </div>
         <div className='col-lg-3 col-md-6'>
           <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/python.png')}  alt="service2"/></div><h4>Python</h4><p>Our Team makes the entire
             software development flow,
             from business analysis and
             planning to integrate Python
             with cloud services [AWS].</p></div>
-          </div>
+        </div>
         <div className='col-lg-3 col-md-6'>
           <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/blockchain-logo.png')}  alt="service3"/></div><h4>BlockChain</h4><p>Our dApp development team
             can help businesses stay on
