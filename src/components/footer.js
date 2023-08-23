@@ -4,7 +4,16 @@ import {FaArrowCircleUp} from 'react-icons/fa';
 import { Link } from "react-router-dom";
 import { Button } from 'react-bootstrap';
 const Footer = () => {
-  const [visible, setVisible] = useState(false) 
+  const [visible, setVisible] = useState(false);
+    const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleMouseEnter = () => {
+    setDropdownOpen(true);
+  };
+   const handleMouseLeave = () => {
+    setDropdownOpen(false);
+  };
+
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
     if (scrolled > 300){
@@ -29,13 +38,13 @@ const Footer = () => {
               <div className="row">
                 <div className="col-sm-4">
                   <div className="footer-info">
-                  <h4>Contact Us On</h4>
-                    <div className="social-links">
-                    <a href="/#" className="twitter"><img src={require('./assets/twitter.png')} alt="twitter_logo"/></a>
-                    <a href="/#" className="facebook"><img src={require('./assets/facebook-app.png')}alt="facebook_logo"/></a>
-                    <a href="/#" className="instagram"><img src={require('./assets/instagram.png')}alt="instagram_logo"/></a>
-                    <a href="/#" className="linkedin"><img src={require('./assets/linkedin.png')} alt="linkedin_logo"/></a>
-                  </div>
+                  <h4>Office Location</h4>
+                    <ul style={{paddingLeft:'0'}}>
+                      <li className="footer-address">
+                        <p className="vvv"><span>Arena-3, 3rd Floor, <br/>STPI ELITE Building, Gothapatna,<br/> Khordha, Odisha - 751003</span></p>
+                    
+                    </li>
+                  </ul>
                   </div>
                 </div>
                 <div className="col-sm-4">
@@ -48,21 +57,19 @@ const Footer = () => {
                       <li><Link to="/team" onClick={scrollToTop}>Team</Link></li>
                       <li><Link to="/gallery"onClick={scrollToTop}>Gallery</Link></li>
                       <li><Link to="/contact" onClick={scrollToTop}>Contact Us</Link></li>
+                      <h4 style={{marginTop:'8px'}}>Product</h4>
                       <li><Link to="/naturopura"onClick={scrollToTop}>Naturopura</Link></li>
-                      <li><Link to="/ai" onClick={scrollToTop}>TechMate</Link></li>
-                      <li><Link to="/sap"onClick={scrollToTop}>SAP</Link></li>
+                      <li><Link to="/techmate" onClick={scrollToTop}>TechMate</Link></li>
+                      <li><Link to="/sap"onClick={scrollToTop}>Data Management</Link></li>
                     </ul>
                   </div>
                 </div>
                 <div className="col-sm-4">
                 <div className="footer-links">
-                    <h4>Address</h4>
+                    <h4>Contact us</h4>
                     <ul>
-                    <li className="footer-address"><img className="footermedia" src={require('./assets/location.png')} alt="address"/>
-                    <span>Arena-3, 3rd Floor, <br/>STPI ELITE Building, Gothapatna,<br/> Khordha, Odisha - 751003</span>
-                    </li>
-                    <li><p className="vvv"><img className="footermedia" src={require('./assets/phone-call.png')} alt="phone-call"/><a href="tel:PHONE_NUM"> +91 9777403555</a><br/></p></li>
-                    <li><p className="vvv" id="mail-end"><img className="footermedia" src={require('./assets/mail.png')} alt="mail"/><a href="mailto:info@quotus.co.in">info@quotus.co.in</a><br/></p></li>
+                    <li><p className="vvv"><span>Mobile:</span><a href="tel:PHONE_NUM"> +91 9777403555</a><br/></p></li>
+                    <li><p className="vvv" id="mail-end"><span>Mail:</span><a href="mailto:info@quotus.co.in">info@quotus.co.in</a><br/></p></li>
                     </ul>             
                   </div>
                 </div>

@@ -69,28 +69,45 @@ const Home = () => {
     <div className="second-banner">
       <div className="container">
         <div className="grid">  
-	        <div className="content item1">
-                <h1>Why<span className="content-text"> us?</span></h1>
-                
-            <p>Quotus Software Solutions Private Limited is a software product
+              <div className="content item1">
+                <div className="section-heads">  <h3>Why<span className="content-text"> Us?</span></h3></div>
+              <div class="main-heading-domain-border-1 text-center"><div></div><div></div></div>  
+            <p style={{padding:'20px 0px'}}>Quotus Software Solutions Private Limited is a software product
             developing company where we endeavor on highly proficient,
             propitious and cost-effective software products. Quotus have highly
             skilled personnel's offering software products using the best
-            innovative minds, skills and using cutting-edge technologies.</p><br/> 
-            <p> Quotus aspire to provide software solutions to all those are not
+            innovative minds, skills and using cutting-edge technologies.<br/> 
+            <br/> Quotus aspire to provide software solutions to all those are not
             having a digital presence. In a short period, Quotus Software
             Solutions Private Limited has developed a business relationship
             with reputed clients all over India.</p>
 	        </div>
-          <div className="card item2"><h2>Mobile Development</h2></div>
-          <div className="card item3"><h2>Machine Learning / AI</h2></div>
-          <div className="card item4"><h2>DataScience</h2></div>
-          <div className="card item5"><h2>Web 3.0 Development</h2></div>
-          <div className="card item7"><h2>Python</h2></div>
-          <div className="card item8"><h2>Website Designing</h2></div>
-          <div className="card item9"><h2>IOT</h2></div>
-          <div className="card item10"><h2>MERN</h2></div>
-          <div className="card item11"><h2>BlockChain Development</h2></div> 
+          <div className="card item2">
+            <h2>Domain Expertise</h2>
+            <p className="gp">With multiple projects done on Travel, Healthcare, Ecommerce, Utilities, and more. We know the trends well.</p>
+          </div>
+          {/* <div className="card item3"><h2>Machine Learning / AI</h2></div> */}
+              <div className="card item4">
+            <h2>Well Balanced Team</h2>
+            <p className="gp">With a deep understanding of the IoT & IIoT ecosystem, we have delivered many successful projects.</p></div>
+              <div className="card item5"><h2>Workflow</h2>
+                <p className="gp">With regular milestone tracking, reporting, & adherence to best project management practices.</p>
+              </div>
+              <div className="card item7">
+                <h2>Spring Integration</h2>
+                <p className="gp">Spring Integration provides a wide selection of channel adapters & gateways to communicate with external systems.</p>
+              </div>
+          <div className="card item8">
+            <h2>We Add Value</h2>
+              <p className="gp">We provide solution to our clients to help them across the life cycle of the organisation.</p>
+          </div>
+              <div className="card item9"><h2>Data Management</h2>
+                <p className="gp">SAP HANA Cloud is a modern database as a service powering the next generation of intelligent data applications.</p>
+              </div>
+              <div className="card item10">
+                 <h2>A clear project vision</h2>
+                <p className="gp">A clear project vision that unifies the team, eliminates confusion, and inspires them to do the best.</p></div>
+          {/* <div className="card item11"><h2>BlockChain Development</h2></div>  */}
         </div> 
       </div>
     </div>
@@ -136,6 +153,9 @@ const Home = () => {
             <div></div>
           </div>
         <div className='row keyfeature-card-row'>
+          <div className='col-lg-3 col-md-6'>
+          <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../assets/cardano.png')}  alt="service3"/></div><h4>Cardano</h4><p>Cardano brings a new standard in technology – open and inclusive – to challenge the old and activate a new age of sustainable, globally-distributed innovation.</p></div>
+          </div>
         <div className='col-lg-3 col-md-6'>
           <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/java.png')} alt="service1"/></div><h4>Java</h4><p>Our Java development team
             commenced many projects
@@ -150,12 +170,7 @@ const Home = () => {
             planning to integrate Python
             with cloud services [AWS].</p></div>
         </div>
-        <div className='col-lg-3 col-md-6'>
-          <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/blockchain-logo.png')}  alt="service3"/></div><h4>BlockChain</h4><p>Our dApp development team
-            can help businesses stay on
-            the competitive edge in the
-            decentralized applications.</p></div>
-          </div>
+       
         <div className='col-lg-3 col-md-6'>
           <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/science.png')}  alt="service4"/></div><h4>React Native</h4><p>React Native lets you create truly native apps & doesn't compromise your user's experiences that map directly to the platform’s native UI building blocks.</p></div>
           </div>
@@ -237,7 +252,24 @@ const Home = () => {
             </div>
         </div>
         </div>  
-        <div id="clients" className="wow fadeInUp">
+    
+      <div className="client-area">
+        <div className="container">   
+          <div className="wrapper">
+            <div className="row">
+              <div className="col-lg-6  text-center">
+                <h2 className="uuu">Client <span className="content-text">Based</span> Countries</h2>
+              </div>
+              <div className="col-lg-6 text-center">
+                <div className="client-area-country">
+                  <img src={require('./../images/countires.png')} alt="country_logo"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+            <div id="clients" className="wow fadeInUp">
           <div className="container">
             <div className="row"><div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div className="section-heads">  <h3>Our<span className="content-text"> Clients</span></h3></div></div></div>
               <div className="main-heading-domain-border-1 text-center">
@@ -265,7 +297,7 @@ const Home = () => {
                 <img src={require('./../images/cycle_logo.png')} alt="cycleworld_logo"/>
               </div>
               <div>
-                <img src={require('./../images/uirtus.png')} alt="uirtus_logo"/>
+                <img src={require('./../assets/uirtus.png')} alt="uirtus_logo"/>
               </div>
               <div>
                 <img src={require('./../images/jaganath_logo.png')} alt="heriatage_logo"/>
@@ -274,22 +306,6 @@ const Home = () => {
             </header>
           </div>
         </div> 
-      <div className="client-area">
-        <div className="container">   
-          <div className="wrapper">
-            <div className="row">
-              <div className="col-lg-6  text-center">
-                <h2 className="uuu">Client <span className="content-text">Based</span> Countries</h2>
-              </div>
-              <div className="col-lg-6 text-center">
-                <div className="client-area-country">
-                  <img src={require('./../images/countires.png')} alt="country_logo"/>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
       </>
     );
 }

@@ -9,9 +9,9 @@ import Contact from './components/pages/contact';
 import Naturopura from './components/pages/naturopura';
 import Innernaturopura from './components/pages/innernaturopura';
 import Cardanopython from './components/pages/cardanopython';
-import Artificial from './components/pages/ai';
 import Sap from './components/pages/sap';
 import Team from './components/pages/team';
+import Artificial from './components/pages/techmate';
 function App() {
   return (
     <div className="App">    
@@ -27,7 +27,7 @@ function App() {
         <Route path="/naturopura" element={<Naturopura/>}/>
         <Route path="/innernaturopura" element={<Innernaturopura/>}/>
         <Route path="/cardanopython" element={<Cardanopython />} />
-        <Route path="/ai" element={<Artificial />} />
+        <Route path="/techmate" element={<Artificial />} />
         <Route path="/sap" element={<Sap/>}/>
       </Routes>
       <Footer/>
