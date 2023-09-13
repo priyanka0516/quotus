@@ -37,7 +37,7 @@ export default class Header extends Component {
       <Navbar bg="white" variant="dark" expand="lg" sticky="top" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
         <Container>
           <Navbar.Brand>
-            <Link to={"/"} className="navbar-brand">   <img src={require('./images/logosmall.png')} alt="quotus_logo" className="logotop"/></Link>
+            <Link to={"/"} className="navbar-brand"><img src={require('./images/logosmall.png')} alt="quotus_logo" className="logotop"/></Link>
           </Navbar.Brand>          
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -51,23 +51,16 @@ export default class Header extends Component {
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}style={{paddingTop: '7px',
                 textDecoration: 'none'}}>
-              <Link to={"/"}id="nav">Product</Link>
-                {isDropdownOpen && (
+              <Link to={""}id="nav">Product</Link>
+              {isDropdownOpen && (
               <div className="dropdown-content">
               <Link to={"/naturopura"} id="nav">Naturopura</Link>
               <Link to={"/techmate"} id="nav">TechMate</Link>
               <Link to={"/sap"} id="nav">Data Management</Link>
               </div>
-                )}
+              )}
               </Link>
-              <Link to={"/contact"} id="nav">Contact</Link>
-             
-              
-            
-              {/* <Link to={"/naturopura"} id="nav">Naturopura</Link>
-              <Link to={"/ai"} id="nav">TechMate</Link>
-              <Link to={"/sap"} id="nav">SAP</Link> */}
-              {/* <Link to={"/cardanopython"}id="nav">PyCardano</Link> */}
+              <Link to={"/contact"} id="nav">Contact</Link> 
             </Nav>          
           </Navbar.Collapse>
         </Container>

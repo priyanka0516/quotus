@@ -121,14 +121,11 @@ render() {
     <div className="container">
       <div className="row">
         <div className="col-md-4">
-            <ul>
-                <li className="contact-loop"><img src={require('./../images/location-pin.png')} alt="location-icon" className="bounce"/></li>
-                <li className="contact-loop"><p className="contact-bold">Visit us</p></li>
-                <li className="contact-loop"><span className="adrs">Arena-3, 3rd Floor,
-                  STPI ELITE Building,<br/>
-                  Gothapatna, Khordha,<br/>
-                  Odisha - 751003.  </span></li>
-            </ul>  
+          <ul>
+            <li className="contact-loop"><img src={require('./../images/location-pin.png')} alt="location-icon" className="bounce"/></li>
+            <li className="contact-loop"><p className="contact-bold">Visit us</p></li>
+            <li className="contact-loop"><span className="adrs">Arena-3, 3rd Floor, STPI ELITE Building,<br/>Gothapatna, Khordha,<br/>Odisha - 751003.</span></li>
+          </ul>  
         </div>
         <div className="col-md-4">
         <ul>
@@ -142,7 +139,7 @@ render() {
           <li className="contact-loop"><img className="bounce" src={require('./../images/gmail.png')} alt="gmail-icon"/></li>
           <li className="contact-loop"><p className="contact-bold">Mail Here</p></li>
           <li className="contact-loop"><a href="mailto:info@quotus.co.in" className="adrs">info@quotus.co.in</a></li>
-            </ul>
+        </ul>
         </div>
       </div>
     </div>
@@ -150,11 +147,11 @@ render() {
     <div className="section" id="contact-us">
       <div className="container">
         <div className="row">
-            <h1 className="map-heading">Get in Touch with us.</h1>
-             <div className="main-heading-domain-border-1 text-center">
-                        <div></div>
-                        <div></div>
-                    </div> 
+          <h1 className="map-heading">Get in Touch with us.</h1>
+            <div className="main-heading-domain-border-1 text-center">
+              <div></div>
+              <div></div>
+            </div> 
           <p className="contact-headline">We are here to help you so, drop your message here.</p>
           <div className="col-lg-6 col-md-6 col-sm-12">
             <div id="map">
@@ -162,8 +159,7 @@ render() {
               width="100%"
               id="myId"
               height="500px"
-              className="myClassname"
-              />
+              className="myClassname"/>
             </div>
           </div>         
           <div className="col-lg-6 col-md-6 col-sm-12">
@@ -192,15 +188,15 @@ render() {
               </form> */}
               <form  onSubmit= {this.submituserRegistrationForm} >
                 <label>Name:</label>
-                  <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange} />
+                <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange}/>
                 <div className="errorMsg">{this.state.errors.username}</div>
                 <label>Email ID:</label>
-                  <input type="text" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}  />
+                <input type="text" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}/>
                 <div className="errorMsg">{this.state.errors.emailid}</div>
                 <label>Mobile No:</label>
-                  <input type="text" name="mobileno" value={this.state.fields.mobileno} onChange={this.handleChange}   />
+                <input type="text" name="mobileno" value={this.state.fields.mobileno} onChange={this.handleChange}/>
                 <div className="errorMsg">{this.state.errors.mobileno}</div>
-                  <input type="submit" className="button" style={{marginTop:'10px'}}value="Submit"/>
+                <input type="submit" className="button" style={{marginTop:'10px'}}value="Submit"/>
               </form>
             </div>
           </div>    

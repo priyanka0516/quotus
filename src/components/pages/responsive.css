@@ -3,9 +3,9 @@
   .contact-text .decor-left{
     width:65px;
   }
-    .flutter-healthcare {
-      height: auto;
-    }
+  .flutter-healthcare {
+    height: auto;
+  }
   .contact-text .decor-right{
     width:65px;
   }
@@ -37,7 +37,6 @@
 }
 .client-area-country img {
   transition-duration: 4s;
-
   width: 100%;
 }
 .grid h2 {
@@ -50,10 +49,22 @@
   .item11{
     display: none;
   }
-  .inner-service-heading{
+.tool-text {
+  padding: 10px 0px;
+}
+.team-sap {
+  padding: 0px 20px;
+}
+#footer .footer-top .footer-info {
+  padding: 0px 20px;
+}
+#footer .footer-top .footer-links {
+  padding: 0px 20px;
+}
+.inner-service-heading{
     padding-top: 10px;
     font-size: 28px;
-}
+  }
   .languages h2 {
     font-size: 28px;
 }
@@ -118,18 +129,18 @@ display: none;
   width: 100%;
 }
 .grid p {
-    font-size: 14px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0;
-    font-family: "Poppins", Sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  font-family: "Poppins", Sans-serif;
 }
 #about .right-text p {
   margin-bottom: 40px;
   font-size: 13px;
 }
 #our-classes p {
-font-size: 14px;
+  font-size: 14px;
   padding: 0px 20px;
   padding-bottom: 30px
 }
@@ -161,9 +172,9 @@ font-size: 14px;
   font-size: 15px;
 }
 .grid{
-     grid-template-rows: none !important;
-     padding: 40px;
-     display: block;
+  grid-template-rows: none !important;
+  padding: 40px;
+  display: block;
 }
 .card{
   height: 200px;

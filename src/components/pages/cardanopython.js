@@ -24,7 +24,7 @@ export default function Cardanopython() {
             </div>  
         </div>
         </div>
-         <section className="why-pycardano">
+    <section className="why-pycardano">
         <div className="container">
             <h2 className="domain_heading">Python Cardano <span className="content-text">BlockChain Package</span> </h2>
             <div className="main-heading-domain-border2">

@@ -13,10 +13,8 @@ const Service = () => {
                 <div className="col-lg-10 offset-lg-1">
                     <div className="cta-content">
                         <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
-                        <p>Quotus Software Solutons, that has been offering best IT services to you. At Quotus, we go beyond helping businesses transform through technology. We help them make a meaningful difference; to their customers, and to the communities they serve.</p>
-                        {/* <div className="main-button scroll-to-section">
-                            <button className="bt-service">Become a member</button>
-                        </div> */}
+                        <p>Quotus Software Solutons, that has been offering best IT services to you. At Quotus, we go beyond helping businesses transform through technology.We accept the call to build what you need.Quotus have power to create great solutions and technology to implement it. Think of abstractions then code.
+                        </p>
                     </div>
                 </div>
             </div>

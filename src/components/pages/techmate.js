@@ -8,7 +8,7 @@ export default function Artificial() {
       </div>     
     </div>
       <div className="section" id="about">
-            <div className="leverage_left"><img src={require('./../images/lev.png')}alt="Mobile-App-Development-Services"/></div>
+      <div className="leverage_left"><img src={require('./../images/lev.png')}alt="Mobile-App-Development-Services"/></div>
       <div className="container">
         <div className="row">
           <div className="col-lg-5 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
