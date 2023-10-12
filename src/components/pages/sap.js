@@ -4,7 +4,7 @@ export default function Sap() {
       <>
         <div className="sap">
             <div className="section-intro">
-                <h2 className="section-intro-title"></h2>
+             <h2 className="section-intro-title">SAP</h2>
             </div>     
           </div>
         <div className="section" id="about">
@@ -36,8 +36,7 @@ export default function Sap() {
                   </div>
               </div>
           </div>
-
-        <div className="section" id="our-classes">
+        <div className="section1" id="our-classes">
         <div className="leverage_left"><img src={require('./../images/lev.png')}alt="Mobile-App-Development-Services"/></div>
         <div className="container">
             <div className="row">
@@ -53,14 +52,14 @@ export default function Sap() {
             </div>
             <div className="row">
             <div className="col-sm-3">
-                <div className='slide-left'> <img src={require('./../assets/data-migration.png')} id="naturo-image"alt="App"/>    </div>                          
+                <div className='slide-left'><img src={require('./../assets/data-migration.png')} id="naturo-image"alt="App"/></div>                          
                 </div>
                 <div className="col-sm-9">
                     <p>Quotus Software Solutions  data migration experts help enterprises successfully move their data to better navigate the digital landscape and create strategic solutions that deliver tangible business results.
                     Data migration and can be a risky proposition to undertake, but is most definitely a critical part of any program that involves change. The need to migrate data happens all the time, whether due to M&A, system technology landscape upgrade, so its imperative enterprise level entities are sure about their chosen solutions provider.
                     <br />
                     {/* <br /> Our vast experience has shown that a smooth migration is an important part to the success of any project, usually requiring collaboration among different stakeholders. We can take care of the entire migration process from strategy, design, development and deployment for on premise, cloud and hybrid implementation. Our experience has shown that these are important part for the success of the project.<br /> */}
-                    <br /> These aspects usually require collaboration among different groups, while always maintaining the branding and message consistency across sites - which can impact the  workload required.
+                    <br/>These aspects usually require collaboration among different groups, while always maintaining the branding and message consistency across sites - which can impact the  workload required.
                     No matter the data format (file, database, cloud, etc.) or the location of it, Our data migration consultants can help with getting your organization’s data where it needs to go. Our experts use proven methodologies that include industry specific best practices and adhere to legal requirements and data privacy standards. Data migrations performed by our professionals are executed quickly and seamlessly, always prioritizing security and certainly at the top of the requirements list, as well as ensuring non-disruption and flexibility as a core part of the process. 
                     </p>
                 </div>
@@ -89,7 +88,7 @@ export default function Sap() {
                 </div>
                 <div className="col-sm-3">
                     <div className='slide-left'>
-                    <img src={require('./../assets/integration1.png')}  id="naturo-image"alt="App"/>               
+                    <img src={require('./../assets/integration1.png')}id="naturo-image"alt="App"/>               
                 </div>
                 </div>
             </div>
@@ -110,7 +109,7 @@ export default function Sap() {
             </div>
             <div className="row">
                 <div className="col-sm-3">
-                <div className='slide-left'><img src={require('./../assets/update1.png')} id="naturo-image"alt="App"/>   </div>
+                    <div className='slide-left'><img src={require('./../assets/update1.png')} id="naturo-image"alt="App"/>   </div>
                 </div>
                 <div className="col-sm-9">
                     <p>Our experts have a lot of experience working with companies to help them execute business solutions using data gathered through digital channels. Quotus Software Solutions  can help your business’s bottom line and help you plan ahead to personalize insights to suit you and your business needs, which we do by using a highly collaborative approach to apply complex technologies, allowing us to gain invaluable business knowledge.
@@ -120,7 +119,7 @@ export default function Sap() {
             </div>
         </div>
     </div>
-            <div className='tool2'>
+        <div className='tool2'>
             <div className='container-fluid'>
                 <div className='row'>
                     <div className='col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12'>
@@ -136,7 +135,7 @@ export default function Sap() {
                         </div>
                     </div>
                     <div className='col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12'>
-                        <div className='tool2-text'> <img src={require('./../assets/desktop.png')} alt="eti"/></div>
+                        <div className='tool2-text'><img src={require('./../assets/desktop.png')} alt="eti"/></div>
                     </div>
                   </div>
               </div>

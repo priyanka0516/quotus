@@ -23,7 +23,7 @@ export default function Cardanopython() {
                 </div>
             </div>  
         </div>
-        </div>
+    </div>
     <section className="why-pycardano">
         <div className="container">
             <h2 className="domain_heading">Python Cardano <span className="content-text">BlockChain Package</span> </h2>
@@ -76,11 +76,11 @@ export default function Cardanopython() {
                 </div>
                 <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12'>
                     <div className='featurebox'>
-                        <img src={require('./../images/privacy-policy.png')} alt="Policy"/>
+                        <img src={require('./../images/privacy-policy.png')}alt="Policy"/>
                         <h4>Policy Management</h4>
                         <p>Define and manage minting policies for token creation.</p>
                     </div>
-                </div> 
+                </div>
             </div>        
         </div>        
     </section>     

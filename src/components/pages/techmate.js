@@ -4,7 +4,7 @@ export default function Artificial() {
     <>
     <div className="double-room">
       <div className="section-intro">
-        <h2 className="section-intro-title"></h2>
+        <h2 className="section-intro-title">TechMate</h2>
       </div>     
     </div>
       <div className="section" id="about">

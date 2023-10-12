@@ -7,10 +7,8 @@ class Contact extends React.Component {
       fields: {},
       errors: {}
     }
-
     this.handleChange = this.handleChange.bind(this);
     this.submituserRegistrationForm = this.submituserRegistrationForm.bind(this);
-
   };
 
   handleChange(e) {
@@ -25,18 +23,15 @@ class Contact extends React.Component {
   submituserRegistrationForm(e) {
     e.preventDefault();
     if (this.validateForm()) {
-        let fields = {};
-        fields["username"] = "";
-        fields["emailid"] = "";
-        fields["mobileno"] = "";
-        this.setState({fields:fields});
-        alert("Form submitted");
+      let fields = {};
+      fields["username"] = "";
+      fields["emailid"] = "";
+      fields["mobileno"] = "";
+      this.setState({fields:fields});
+      alert("Form submitted");
     }
-
   }
-
   validateForm() {
-
     let fields = this.state.fields;
     let errors = {};
     let formIsValid = true;
@@ -96,27 +91,27 @@ class Contact extends React.Component {
     });
     return formIsValid;
   }
-render() {
-  return (
+  render() {
+    return (
     <>
-      <div className="single-room">
-        <div className="section-intro">
-          <h2 className="section-intro-title">Contact Us</h2>
-        </div>     
-      </div> 
-      <div className="contact-address-area">
+    <div className="contactarea">
+      <div className="section-intro">
+        <h2 className="section-intro-title">Contact Us</h2>
+      </div>     
+    </div> 
+    <div className="contact-address-area">
       <div className="container">
         <div className="row">
-        <div className="sec-title-style1 text-center max-width">
-            {/* <div class="title">Contact Us</div> */}
+          <div className="sec-title-style1 text-center max-width">
+            {/* <div class="title">Contact Us</div>*/}
             <div className="contact-text"><div className="decor-left"><span></span></div><p>Quick Contact</p><div className="decor-right"><span></span></div></div>
-            <div className="bottom-text">
+              <div className="bottom-text">
                 <p>We're here to help! Tell us what you're looking for and we'll get you connected to the right people.</p>
-            </div>
-        </div>
+              </div>
+          </div>
         </div> 
       </div>
-      </div>  
+    </div>  
     <div className="adress">
     <div className="container">
       <div className="row">
@@ -185,10 +180,10 @@ render() {
                         <input type="submit" value="Submit"/>
                         </div>
                       </div>
-              </form> */}
-              <form  onSubmit= {this.submituserRegistrationForm} >
+              </form>*/}
+              <form onSubmit= {this.submituserRegistrationForm} >
                 <label>Name:</label>
-                <input type="text" name="username" value={this.state.fields.username} onChange={this.handleChange}/>
+                <input type="text"name="username" value={this.state.fields.username} onChange={this.handleChange}/>
                 <div className="errorMsg">{this.state.errors.username}</div>
                 <label>Email ID:</label>
                 <input type="text" name="emailid" value={this.state.fields.emailid} onChange={this.handleChange}/>

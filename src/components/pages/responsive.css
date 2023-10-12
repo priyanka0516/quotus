@@ -1,7 +1,39 @@
 @media (min-width: 0px) and (max-width: 425px){
   .why-us {font-size: 28px;}
+  ul.bronzee li {
+    width: 38%;
+  }
+  .navbar .container {
+    padding-left: 18px;
+    border-radius: 20px;
+    background: #fff;
+  }
+  .all-tech_box {
+    flex: 2 0 38%;
+  }
+  .left-column{
+    height: auto;
+  }
+  .banner1 .section-intro p {
+    padding-left: 20px;
+  }
+  .keyfeature-card {
+    padding: 10px;
+    margin-top: 20px;
+    width: 40%;
+  }
+  .tech-desc{
+    padding: 0px 20px;
+  }
+  .box-transparent img{
+    height: 50px;
+  }
   .contact-text .decor-left{
     width:65px;
+  }
+  .img-fluid1 {
+    width: 100%;
+    height: auto;
   }
   .flutter-healthcare {
     height: auto;
@@ -15,14 +47,15 @@
   .featurebox {
     height: auto;
   }
-  .h-trustedcmpny.trustedcmpny {   height: auto;
+  .h-trustedcmpny.trustedcmpny { 
+  height: auto;
   }
   .sec-title-style1 .bottom-text p {font-size: 13px;}
   .adrs{font-size: 13px;}
   .grid {
     width: 100%;
-    height: 970px;
-}
+    height: 980px;
+  }
 .item10{
   display: none;
 }
@@ -31,9 +64,9 @@
 }
 .client-area h2 {
   font-size: 32px;
-    line-height: 57px;
-    margin-top: 0px;
-    padding: 0px 20px;
+  line-height: 57px;
+  margin-top: 0px;
+  padding: 0px 20px;
 }
 .client-area-country img {
   transition-duration: 4s;
@@ -46,8 +79,8 @@
 }
 .cta-content h2 {
   font-size: 26px;}
-  .item11{
-    display: none;
+.item11{
+  display: none;
   }
 .tool-text {
   padding: 10px 0px;
@@ -62,11 +95,11 @@
   padding: 0px 20px;
 }
 .inner-service-heading{
-    padding-top: 10px;
-    font-size: 28px;
+  padding-top: 10px;
+  font-size: 28px;
   }
-  .languages h2 {
-    font-size: 28px;
+.languages h2 {
+  font-size: 28px;
 }
 #services{
   padding: 40px 20px 40px 20px;
@@ -76,11 +109,11 @@
 }
 .item4 {
   pointer-events: visible;}
-  .item3{
+.item3{
     pointer-events: visible;
   }
 .logotop {
-  height: 50px;
+  height: 35px;
   margin-top: 5px;
   margin-left: 0px;
 }
@@ -94,7 +127,7 @@
   padding: 30px 0px;
 }
 .about_img  {
-display: none;
+  display: none;
 }
 .social-links img{
   display: inline;
@@ -114,9 +147,10 @@ display: none;
   margin-top: 0px;
 }
 .section-header h3 {
-  font-size: 32px;}
-  #clients {
-    padding: 40px 20px;
+  font-size: 32px;
+}
+#clients {
+  padding: 40px 20px;
 }
 .uuu {
   margin-top: 0px;
@@ -151,12 +185,19 @@ display: none;
 
 }
 @media (min-width: 426px) and (max-width: 767px){
+  ul.bronzee li {
+      width: 70%;
+  }
   .banner-text-1{
     font-size: 35px;
     text-align: left;
     padding: 45px 40px;
     margin-bottom: 0;
   }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+      }
   .logotop {
     width: 135px;
     height: 40px;
@@ -186,7 +227,7 @@ display: none;
 .trustedcmpny h2 {
   font-size: 28px;
 }
-#million {font-size: 32px;}
+#million {font-size: 14px;}
 .uuu{
   margin: 0;
   font-size: 30px;
@@ -242,33 +283,80 @@ display: none;
 
 
 @media (min-width: 768px) and (max-width: 1023px){
-  .keyfeature-card{
-  margin: 4% 2%;
+        .col-md-6 {
+          flex: 1;
+          /* Use flexbox to make both columns full width */
+          width: 100%;
+          /* Set width to 100% */
+        }
+    .boxcard .gp{
+overflow: hidden;
+font-size: 13px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+    }
+        .keyfeature-card {
+          width: 47%;
+          padding: 10px;
+          margin: 10px 4px;
+        }
+  ul.bronzee li {
+    width: 15%;
+  }
+  .grid p{
+    width:350px;
+  }
+  .grid .gp{
+    display: none;
+  }
+  .img-fluid1 {
+  width: 100%;
   height: auto;
-  min-height: 270px;
   }
-  .banner-text-1 {
-    font-size: 52px;
-    padding: 60px 0px;
-    margin: 0;
+.banner-text-1 {
+  font-size: 52px;
+  padding: 60px 0px;
+  margin: 0;
   }
-  .about_img{
-   margin: 0;
-  }
-  .grid h2 {
-    font-size: 18px;
-    margin: 0;
-    text-align: center;
+.about_img{
+  margin: 0;
+}
+.grid {
+  height: 500px;
+  /* grid-
+  template-columns: repeat(2, 1fr); */
+  grid-template-rows: repeat(6, minmax(auto, 100px));
+  /* overflow-y: scroll; */
+}
+.item7 {
+  grid-area: 4/4/5/5;
+}
+.item2 {
+  grid-area: 3/4/3/4;
+}
+.item10{
+  grid-template-columns: 5/5/3/6;
+}
+.grid h2 {
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+#million {
+  font-size: 14px;
 }
 .requirement_para {
   display: block;
   text-align: center;
   font-size: 12px;
   overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    line-clamp: 2;
-    -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
   color: #242424;
 }
 .content h1 {
@@ -303,6 +391,11 @@ font-size: 35px;
 }
 
 @media (max-width: 1401px) {
+  /* .navbar .container {
+      padding-left: 35px;
+      border-radius: 30px;
+      background: #fff;
+    } */
     #about-main .jumbotron {
       height: 595px !important;
     }
@@ -429,26 +522,59 @@ font-size: 35px;
   }
   }
 
-@media (min-width: 768px) and (max-width: 1023px) 
-        { 
-        .development_process_innerboxs ul li {
-            padding: 35px 50px;
-            width: 25%;
-            /* margin: 0; */
-            /* height: 142px; */
-            overflow: hidden;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            line-clamp: 2;
-            -webkit-box-orient: vertical;
-          }
-      }
-          
+@media (min-width: 768px) and (max-width: 1023px) { 
+  .development_process_innerboxs ul li {
+    padding: 35px 50px;
+    width: 25%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+}       
  @media (min-width: 1024px) and (max-width: 1440px){
   .keyfeature-card{
-  margin: 4% 2%;
     height: auto;
-    min-height: 300px;
+    
   }
-
+     .navbar .container {
+       padding-left: 35px;
+       border-radius: 30px;
+       background: #fff;
+     }
+  .left-column p{
+    font-size: 12px;
+  }
+            .boxcard .gp {
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              /* number of lines to show */
+              line-clamp: 2;
+              -webkit-box-orient: vertical;
+            }
+  .left-column{
+    font-size: 12px;
+  }
+  .gp{
+    font-size: 14px;
+  }
  }
+ .navbar-collapse {
+   padding-right: 35px;
+ }
+@media (max-width: 1441px) and (min-width: 2571px) {
+  /* Styles go here */
+  .navbar .container {
+      padding-left: 35px;
+      border-radius: 20px;
+      background: #fff;
+    }
+}
+@media screen and (min-width: 2560px) {.navbar .container {
+    padding-left: 35px;
+    border-radius: 20px;
+    background: #fff;
+  }
+}

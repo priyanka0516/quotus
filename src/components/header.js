@@ -1,13 +1,13 @@
 import React, { Component} from "react";
-import {Container,Nav,Navbar}from 'react-bootstrap';
+import {Container,Nav,Navbar,NavDropdown}from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
+import Button from "react-bootstrap/Button";
 
 export default class Header extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       isDropdownOpen: false,
       navExpanded: false
@@ -20,21 +20,13 @@ export default class Header extends Component {
     this.setState({ navExpanded: false });
   }
   
- handleMouseEnter = () => {
-    this.setState({
-      isDropdownOpen: true
-    });
-  }
+ toggleDropdown = () => {
+  this.setState({ isDropdownOpen: !this.state.isDropdownOpen });
+};
 
-  handleMouseLeave = () => {
-    this.setState({
-      isDropdownOpen: false
-    });
-  }
   render() {
-      const { isDropdownOpen } = this.state;
     return (
-      <Navbar bg="white" variant="dark" expand="lg" sticky="top" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
+      <Navbar  expand="lg" sticky="top" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
         <Container>
           <Navbar.Brand>
             <Link to={"/"} className="navbar-brand"><img src={require('./images/logosmall.png')} alt="quotus_logo" className="logotop"/></Link>
@@ -47,11 +39,12 @@ export default class Header extends Component {
               <Link to={"/services"} id="nav">Services</Link>
               <Link to={"/team"} id="nav" >Team </Link>
               <Link to={"/gallery"} id="nav">Gallery</Link>
-              <Link className="nav-item dropdown"
+            </Nav> 
+              {/*              
+              <Link id="nav" className="nav-item dropdown"
                 onMouseEnter={this.handleMouseEnter}
                 onMouseLeave={this.handleMouseLeave}style={{paddingTop: '7px',
-                textDecoration: 'none'}}>
-              <Link to={""}id="nav">Product</Link>
+                textDecoration: 'none'}}>Product
               {isDropdownOpen && (
               <div className="dropdown-content">
               <Link to={"/naturopura"} id="nav">Naturopura</Link>
@@ -59,9 +52,28 @@ export default class Header extends Component {
               <Link to={"/sap"} id="nav">Data Management</Link>
               </div>
               )}
-              </Link>
-              <Link to={"/contact"} id="nav">Contact</Link> 
-            </Nav>          
+            </Link> */}
+          <NavDropdown title="Product" id="basic-nav-dropdown">
+          <NavDropdown.Item href="/naturopura">Naturopura</NavDropdown.Item>
+          <NavDropdown.Item href="/techmate">TechMate</NavDropdown.Item>
+          <NavDropdown.Item href="/sap">Data Management</NavDropdown.Item>
+          </NavDropdown>
+          <Nav onClick={this.setNavClose}>
+            <Link to={"/contact"} id="nav">Contact</Link> 
+          </Nav>
+            {/* <Dropdown
+            show={isDropdownOpen}
+            onToggle={this.toggleDropdown}
+            alignRight>
+            <Dropdown.Toggle as={Button} onClick={this.toggleDropdown}>
+              Product
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item href="/naturopura">Naturopura</Dropdown.Item>
+              <Dropdown.Item href="/techmate">TechMate</Dropdown.Item>
+              <Dropdown.Item href="/sap">Data Management</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>*/}
           </Navbar.Collapse>
         </Container>
       </Navbar>

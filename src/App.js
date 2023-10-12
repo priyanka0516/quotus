@@ -12,6 +12,7 @@ import Cardanopython from './components/pages/cardanopython';
 import Sap from './components/pages/sap';
 import Team from './components/pages/team';
 import Artificial from './components/pages/techmate';
+import Java from './components/pages/java';
 function App() {
   return (
     <div className="App">    
@@ -28,7 +29,8 @@ function App() {
         <Route path="/innernaturopura" element={<Innernaturopura/>}/>
         <Route path="/cardanopython" element={<Cardanopython />} />
         <Route path="/techmate" element={<Artificial />} />
-        <Route path="/sap" element={<Sap/>}/>
+        <Route path="/sap" element={<Sap />} />
+        <Route path="/java" element={<Java/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

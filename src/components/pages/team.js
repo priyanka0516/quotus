@@ -62,10 +62,7 @@ export default function Team() {
                     <p>Django</p>
                 </div>
                 </div>
-                <div className='details'>
-                    <h3>Combined 18 Years of experience of the resources</h3>
-                    <p><b>Skills:</b> Web2, ReactNative, UI-UX Design, MERN, Photoshop, Figma, Python, Django.</p>
-                </div>
+               
             </div>
         </div>
         <div className='row'>
@@ -127,10 +124,7 @@ export default function Team() {
                     <p>Atala Prism</p>
                 </div>
                 </div>
-                <div className='details'>
-                    <h3>Combined 15 Years of experience of the resources.</h3>
-                    <p><b>Skills:</b> Web3, Blockchain, Ethereum, Cardano, Plutus, Solidity, MeshJS, Marlowe, Atala prism.</p>
-                </div>
+              
             </div>
         </div>
         <div className='row'>
@@ -155,10 +149,6 @@ export default function Team() {
                     </div>
                     <p>Hadoop</p>
                 </div>  
-            </div>
-            <div className='details'>
-                <h3>  Combined 47 Years of experience of Resources.</h3>
-                <p><b>Skills:</b> JAVA Servlet, Spring Boot, Bigdata, Hadoop</p>
             </div>
             </div>
         </div>

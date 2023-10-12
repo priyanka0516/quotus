@@ -5,8 +5,8 @@ const Naturopura = () => {
     window.open('https://github.com/Naturopura/NaturopuraV1/wiki/Technical-Design', '_blank');
   };
     return ( 
-<>
-    <div className="single-room">
+    <>
+    <div className="naturopura">
         <div className="section-intro">
             <h2 className="section-intro-title">Naturopura</h2>
         </div>     
