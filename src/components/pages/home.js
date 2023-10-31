@@ -5,11 +5,10 @@ import { Link } from "react-router-dom";
 import { NavLink } from "react-bootstrap";
 import { useNavigate } from 'react-router-dom';
 const Home = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   // Function to navigate to another page when the button is clicked
-  // const navigateToAnotherPage = () => {
-  //   navigate('/java'); 
-  // };
+
+  
     return (
     <>
     <div className="banner1">
@@ -221,7 +220,7 @@ const Home = () => {
             <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../assets/cardano.png')} alt="service3"/></div><h4>Cardano</h4>
               {/* <p>Cardano brings a new standard in technology – open and inclusive – to challenge the old and activate a new age of sustainable, globally-distributed innovation.</p> */}
             </div>
-            <div className="keyfeature-card"><div className="box-transparent" onClick={navigateToAnotherPage}><img src={require('./../images/java.png')} alt="service1"/></div><h4>Java</h4>
+            <div className="keyfeature-card"><div className="box-transparent" ><img src={require('./../images/java.png')} alt="service1"/></div><h4>Java</h4>
               {/* <p>Our Java development team commenced many projects to develop & manage various applications.</p> */}</div>
             <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/python.png')} alt="service2"/></div><h4>Python</h4>
                 {/* <p>Our Team makes the entire software development flow, from business analysis and planning to integrate Python with cloud services [AWS].</p> */}
