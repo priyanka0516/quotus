@@ -7,9 +7,9 @@ import { useNavigate } from 'react-router-dom';
 const Home = () => {
   const navigate = useNavigate();
   // Function to navigate to another page when the button is clicked
-  const navigateToAnotherPage = () => {
-    navigate('/java'); // Replace '/other-page' with the desired route
-  };
+  // const navigateToAnotherPage = () => {
+  //   navigate('/java'); 
+  // };
     return (
     <>
     <div className="banner1">
@@ -18,7 +18,7 @@ const Home = () => {
         <div className="row">
           <div className="col-lg-7 col-12 fr-mb-padding">
             <h1 className="banner-text-1">We are Experienced <br /><span className="banner-text"></span><br />For Your Business Success.</h1>
-            <p>eveloping company where we endeavor on highly proficient,
+            <p>Developing company where we endeavor on highly proficient,
             propitious and cost-effective software products. Quotus have highly
             skilled personnel's offering software products using the best
             innovative minds, skills and using cutting-edge technologies</p>
@@ -254,73 +254,72 @@ const Home = () => {
                   <h2 className="uuu">Client <span className="content-text">Based<br/></span> Countries</h2>
                 </div>          
               </div>
-                <div className="col-lg-6 text-center" style={{ backgroundColor: '#0c5991' }}>
-                   <div className="colored">
+              <div className="col-lg-6 text-center" style={{ backgroundColor: '#0c5991' }}>
+                <div className="colored">
                 <div className="client-area-country">
                   <img src={require('./../images/countires.png')} alt="country_logo"/>
-                    </div>
+                </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-        <div id="clients" className="wow fadeInUp">
-          <div className="container">
-            <div className="row"><div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div className="section-heads mt-0"><h3>Our<span className="content-text"> Clients</span></h3></div></div></div>
+      <div id="clients" className="wow fadeInUp">
+        <div className="container">
+          <div className="row"><div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"><div className="section-heads mt-0"><h3>Our<span className="content-text"> Clients</span></h3></div></div></div>
             <div className="main-heading-domain-border-1 text-center">
-                <div></div>
-                <div></div>
+              <div></div>
+              <div></div>
             </div>
             <div className="our_partners">
             <ul className="bronzee margin-t">
               <li className="cntr_li">
 								<a href="/#" target="_blank">
-								   <img src={require('./../images/mjunction_logo.png')} alt="heriatage_logo"/>
+								  <img src={require('./../images/mjunction_logo.png')} alt="heriatage_logo"/>
 								</a>
-                </li>
-                	<li className="cntr_li">
+              </li>
+              <li className="cntr_li">
 								<a href="/#" >
-								   <img src={require('./../images/cardano-logo.png')} alt="cardano_logo"/>
+								  <img src={require('./../images/cardano-logo.png')} alt="cardano_logo"/>
 								</a>
 							</li>
 							<li>
 								<a href="/#" target="_blank">
-								 <img src={require('./../images/odisha.png')} alt="ohodisha_logo"/>
+								<img src={require('./../images/odisha.png')} alt="ohodisha_logo"/>
 								</a>
 							</li>
-
 							<li>
 								<a href="/#" target="_blank">
-								  <img src={require('./../images/Cloud10.png')}alt="cloud10_logo"/>
+								<img src={require('./../images/Cloud10.png')}alt="cloud10_logo"/>
 								</a>
 							</li>
-
 							<li>
 								<a href="/#">
-							 <img src={require('./../images/bima.png')} alt="bima_logo"/></a>
+							  <img src={require('./../images/bima.png')} alt="bima_logo"/></a>
 							</li>
 							<li className="cntr_li">
 								<a href="http://www.cycleworld.net.in/" target="_blank">
-							 <img src={require('./../images/cycle_logo.png')} alt="cycleworld_logo"/>
-								</a>
-							</li><li className="cntr_li">
+							  <img src={require('./../images/cycle_logo.png')} alt="cycleworld_logo"/></a>
+              </li>
+              <li className="cntr_li">
 								<a href="https://www.erevmax.com/" target="_blank">
-							   <img src={require('./../images/erevmax.png')} alt="rex_logo"/>
+							    <img src={require('./../images/erevmax.png')} alt="rex_logo"/>
 								</a>
-							</li><li className="cntr_li">
-                  <a href="https://www.uirtus.in/" target="_blank">
-							   <img src={require('./../images/uirtus.png')} alt="uirtus_logo"/>
-								</a>
-                </li>
-                <li className="cntr_li">
+              </li>
+              <li className="cntr_li">
+                <a href="https://www.uirtus.in/" target="_blank">
+							  <img src={require('./../images/uirtus.png')} alt="uirtus_logo"/>
+							  </a>
+              </li>
+              <li className="cntr_li">
 								<a href="/#" target="_blank">
 								  <img src={require('./../images/Shree_Jagannath.png')} alt="heriatage_logo"/>
 								</a>
 							</li>
               </ul>
-            </div>         
-            {/* <header className="section-header">
+            </div>  
+            {/* <header className="section-header"> 
             <Slider {...settings}>
               <div className="">
                 <img src={require('./../images/odisha.png')} alt="ohodisha_logo"/>

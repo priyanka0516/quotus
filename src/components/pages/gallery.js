@@ -3,11 +3,9 @@ const Gallery =  ({ overlayText })  => {
   return (
     <>
     <div className="galleryarea">
-        <div className="section-intro">
-            <h2 className="section-intro-title">           
-               Gallery
-            </h2>
-        </div>     
+      <div className="section-intro">
+        <h2 className="section-intro-title">Gallery</h2>
+      </div>     
     </div> 
     <div className="gallery-section">
       <div className="container">
@@ -33,7 +31,7 @@ const Gallery =  ({ overlayText })  => {
             <img src={require('./../images/an5.jpg')} alt="gallery5" className="img-fluid1 rounded" />
           </div>
           <div id="gallerybox" data-gallery="gallery" className="col-lg-4 col-md-4">
-              <img src={require('./../images/an6.jpg')} alt="gallery6" className="img-fluid1 rounded" />
+            <img src={require('./../images/an6.jpg')} alt="gallery6" className="img-fluid1 rounded" />
             </div>       
           <div id="gallerybox" data-gallery="gallery" className="col-lg-4 col-md-4">
             <img src={require('./../images/an7.jpg')} alt="gallery6" className="img-fluid1 rounded" />

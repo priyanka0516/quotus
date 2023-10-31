@@ -8,7 +8,7 @@ return (
         </div>     
     </div> 
     <div className="section" id="about">
-    <div className="container">
+        <div className="container">
             <div className="row">
                 <div className="col-lg-6 col-md-12 col-sm-12" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
                     <img src={require('./../images/aboutpage.png')} className="rounded img-fluid d-block mx-auto" alt="App"/>
