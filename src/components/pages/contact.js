@@ -142,13 +142,13 @@ class Contact extends React.Component {
     <div className="section" id="contact-us">
       <div className="container">
         <div className="row">
-          <h1 className="map-heading">Get in Touch with us.</h1>
+          <h1 className="map-heading">Visit Us</h1>
             <div className="main-heading-domain-border-1 text-center">
               <div></div>
               <div></div>
             </div> 
-          <p className="contact-headline">We are here to help you so, drop your message here.</p>
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <p className="contact-headline">We are here to help you so, visit us here.</p>
+          <div className="col-lg-12 col-md-12 col-sm-12">
             <div id="map">
               <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.188577567174!2d85.7408903143954!3d20.29246011788201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1907e655555555%3A0x3f6fe26d44d5028b!2sQUOTUS%20SOFTWARE%20SOLUTIONS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1669873461046!5m2!1sen!2sin"      
               width="100%"
@@ -157,30 +157,9 @@ class Contact extends React.Component {
               className="myClassname"/>
             </div>
           </div>         
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          {/* <div className="col-lg-6 col-md-6 col-sm-12">
             <div className="contact-form">
-              {/* <form>
-                      <div className="row">               
-                        <div className="col-75">
-                          <input type="text" id="fname" name="firstname" placeholder="Your First name.."/>
-                        </div>
-                      </div>
-                      <div className="row">                     
-                        <div className="col-75">
-                          <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-75">
-                          <textarea id="subject" name="subject" placeholder="Message.." style={{height:"200px"}}></textarea>
-                        </div>
-                      </div>
-                      <div className="row">
-                      <div className="col-75">
-                        <input type="submit" value="Submit"/>
-                        </div>
-                      </div>
-              </form>*/}
+          
               <form onSubmit= {this.submituserRegistrationForm} >
                 <label>Name:</label>
                 <input type="text"name="username" value={this.state.fields.username} onChange={this.handleChange}/>
@@ -194,7 +173,7 @@ class Contact extends React.Component {
                 <input type="submit" className="button" style={{marginTop:'10px'}}value="Submit"/>
               </form>
             </div>
-          </div>    
+          </div>     */}
           </div>
         </div>
     </div>

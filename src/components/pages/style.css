@@ -71,15 +71,21 @@ body {
   } 
   .naturopura .section-intro {
     background: url('./../images/veg_banner.jpg');
+    height: 300px;
     background-position: center;
-    overflow: hidden;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .service .section-intro {
     background: url('./../images/Career-Banner2.jpg');
+    height: 300Px;
     background-position: center;
-    overflow: hidden;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .cta-content{
     padding: 30px;
@@ -88,17 +94,32 @@ body {
   border-radius: 30px;
   background: #eaedfe;
 }
-  .galleryarea .section-intro {
+  .galleryarea  {
+    position: relative;
+    height: 300Px;
     background: url('./../images/banner-gallery_3.jpg');
     background-position: center;
-    overflow: hidden;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .section-intro-title{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    position: relative;
+    padding-top: 30px;
    }
   .contactarea .section-intro {
-    background: url('./../images/contact.jpg');
-    background-position: center;
-    overflow: hidden;
-    background-size: cover;
+  background: url('./../images/contact.jpg');
+  position: relative;
+  height: 300Px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
   /*--------------------------------------------------------------
   /* banner class */
@@ -114,8 +135,7 @@ body {
 .banner-left > * {
 	margin: 0.5rem;
 	animation: right_to_left 3s ease;
-    text-align: left;
-
+  text-align: left;
 }
 
 .banner-header {
@@ -283,8 +303,6 @@ button:hover{
   position: relative;}
 .banner1 .section-intro{
   background: #041a38;
-  /* background: url('./../images/DEMO.png'); */
-  /* background: url('./../images/240_F_222683930_mXWfHnOk9spCYOyEhqXNSWbWhZd4dFKF.jpg'); */
   background-position: center;
   overflow: hidden;
   object-fit: cover;
@@ -1522,6 +1540,7 @@ p {
 .slide-left {
   animation: 3s slide-left;
   margin: 0;
+  text-align: center;
 }
 @keyframes slide-left {
   from {
@@ -1688,7 +1707,7 @@ p {
 }
 /* 
 /*about*/
-.section-intro {
+.single-room .section-intro {
   height: 300px;
   background:url("./../images/inner.jpg");
   background-position: center;
@@ -1696,15 +1715,13 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-attachment: fixed; */
 }
-.section-intro-title {
-  font-size: 50px;
-  font: "Margarine", sans-serif;
-  color: #fff;
-  position: relative;
-  padding-top: 30px;
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow:none;
 }
+
 figure.snip0078 {
   font-family: "Poppins", Sans-serif;
   color: #fff;
@@ -2786,7 +2803,7 @@ input[type=submit]:hover {
   font-weight: 700;
 }
 .flutter-healthcare p {
-  font: normal normal normal 15px/25px Poppins;
+  font: normal normal normal 13px/25px Poppins;
   color: rgb(0, 0, 0);
   overflow: hidden;
   display: -webkit-box;
@@ -2817,6 +2834,9 @@ input[type=submit]:hover {
   justify-content: flex-start;
 }
 .flutter-hr a{
+  font-size: 15px;
+  font-weight: 600;
+  color: #f7a116;
   text-decoration: none;
   padding: 10px 0px;
 }
@@ -3180,9 +3200,12 @@ strong {
 .team .section-intro {
   height: 300px;
   background: url('./../images/Career-Banner.jpg');
-  background-position: center;
-  overflow: hidden;
-  background-size: cover;
+    height: 300Px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .all-tech-sec {
   display: flex;
@@ -3407,8 +3430,12 @@ strong {
   border-radius: 0;
   border: none;
   padding: 0px;
-  top: 43px;
+  top: 32px;
   display: block;
+}
+.dropdown-item {
+  padding: 10px 15px;
+  font-weight: 600;
 }
 .dropdown-item:hover {
   color: #fff;
@@ -3416,7 +3443,7 @@ strong {
   background-color: #f7a116;
 }
 .dropdown-toggle {
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   font-weight: 600;
   background-color: none;
 }
@@ -3709,9 +3736,8 @@ strong {
   background-position: center;
   overflow: hidden;
   display: flex;
-    align-items: center;
-
-}
+  align-items: center;
+} 
 .centricRight{
   padding: 50px 0px;
 }
@@ -3719,3 +3745,43 @@ strong {
   color: #fff;
   font:normal normal bold 50px/76px Poppins;
 }
+/* Dropdown Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 16px;
+}
+ 
+.dropdown button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown button::after {
+  content: "▼";
+  margin-left: 5px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  left: 0;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {
+  display: block;
+}
+

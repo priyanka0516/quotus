@@ -12,7 +12,7 @@ const Gallery =  ({ overlayText })  => {
         <div className="row col-lg-12 ">
           <header className="ribbon-container">
             <h2 className="ribbon">
-              <p className="ribbon-content">Annual Stakeholders Meet 2023 at Vivanta</p>
+              <p className="ribbon-content">Annual Stakeholders Meet 2023 at Vivanta , BBSR</p>
             </h2>
           </header>
           <div id="gallerybox"data-toggle="lightbox" data-gallery="gallery" className="col-lg-4 col-md-4">
@@ -46,7 +46,39 @@ const Gallery =  ({ overlayText })  => {
           <div className="row col-lg-12">
             <header className="ribbon-container"> 
               <h2 className="ribbon">
-                <p className="ribbon-content">Campus Drive at MITM College</p>
+                <p className="ribbon-content">Campus Drive at GITA Autonomous College , BBSR</p>
+              </h2>
+            </header>
+          <div id="gallerybox"data-toggle="lightbox" data-gallery="gallery" className="col-lg-4 col-md-4">
+            <img src={require('./../images/GITA.jpeg')} alt="gallery4" className="img-fluid1 rounded"/>
+          </div>
+          <div id="gallerybox" data-toggle="lightbox" data-gallery="gallery" className="col-lg-4 col-md-4">
+            <img src={require('./../images/GITA.jpeg')} alt="gallery5" className="img-fluid1 rounded" />
+          </div>
+          <div id="gallerybox"data-gallery="gallery" className="col-lg-4 col-md-4">
+            <img src={require('./../images/gita3.jpeg')} alt="gallery6" className="img-fluid1 rounded" />
+          </div>
+          </div>
+          <div className="row col-lg-12">
+            <header className="ribbon-container"> 
+              <h2 className="ribbon">
+                <p className="ribbon-content">Ganesh Chaturthi Celebration in Office, BBSR</p>
+              </h2>
+            </header>
+          <div id="gallerybox"data-toggle="lightbox" data-gallery="gallery" className="col-lg-4 col-md-4">
+            <img src={require('./../images/DSC_0016.JPG')} alt="gallery4" className="img-fluid1 rounded"/>
+          </div>
+          <div id="gallerybox" data-toggle="lightbox" data-gallery="gallery" className="col-lg-4 col-md-4">
+            <img src={require('./../images/DSC_0022.JPG')} alt="gallery5" className="img-fluid1 rounded" />
+          </div>
+          <div id="gallerybox"data-gallery="gallery" className="col-lg-4 col-md-4">
+            <img src={require('./../images/DSC_0024.JPG')} alt="gallery6" className="img-fluid1 rounded" />
+          </div>
+          </div>
+          <div className="row col-lg-12">
+            <header className="ribbon-container"> 
+              <h2 className="ribbon">
+                <p className="ribbon-content">Campus Drive at MITM College , BBSR</p>
               </h2>
             </header>
           <div id="gallerybox"data-toggle="lightbox" data-gallery="gallery" className="col-lg-4 col-md-4">

@@ -10,7 +10,8 @@ export default class Header extends Component {
     super(props);
     this.state = {
       isDropdownOpen: false,
-      navExpanded: false
+      navExpanded: false,
+      dropdownVisible: false,
     };
   }
   setNavExpanded = (expanded) => {
@@ -24,7 +25,12 @@ export default class Header extends Component {
   this.setState({ isDropdownOpen: !this.state.isDropdownOpen });
 };
 
+  toggleDropdown = () => {
+    this.setState({ dropdownVisible: !this.state.dropdownVisible });
+  };
+
   render() {
+       const { dropdownVisible } = this.state;
     return (
       <Navbar  expand="lg" sticky="top" onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
         <Container>
@@ -53,7 +59,15 @@ export default class Header extends Component {
               </div>
               )}
             </Link> */}
-          <NavDropdown title="Product" id="basic-nav-dropdown">
+            <NavDropdown title="Product" id="basic-nav-dropdown">
+               {/* <div className="dropdown">
+            <button onClick={this.toggleDropdown}>Dropdown</button>
+            <div className={`dropdown-content ${dropdownVisible ? 'show' : ''}`}>
+              <a  href="/naturopura">Naturopura</a>
+              <a href="/techmate">TechMate</a>
+              <a href="/sap">Data Management</a>
+            </div>
+          </div> */}
           <NavDropdown.Item href="/naturopura">Naturopura</NavDropdown.Item>
           <NavDropdown.Item href="/techmate">TechMate</NavDropdown.Item>
           <NavDropdown.Item href="/sap">Data Management</NavDropdown.Item>

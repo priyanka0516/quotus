@@ -113,7 +113,7 @@
     pointer-events: visible;
   }
 .logotop {
-  height: 50px;
+  height: 40px;
   /* margin-top: 5px; */
   margin-left: 0px;
 }
@@ -283,6 +283,26 @@
 
 
 @media (min-width: 768px) and (max-width: 1023px){
+  .flutter-healthcare {
+     height: auto;
+  }
+  .navbar .container {
+      padding-left: 18px;
+      border-radius: 20px;
+      background: #fff;
+    }
+  #nav {
+      color: #000;
+  }
+  .dropdown-toggle{
+    background-color: transparent;
+    color: #000;
+  }
+  .about_img img {
+      width: 100%;
+      display: none;
+      transition: none;
+    }
         .col-md-6 {
           flex: 1;
           /* Use flexbox to make both columns full width */
@@ -396,6 +416,8 @@ font-size: 35px;
       border-radius: 30px;
       background: #fff;
     } */
+
+      
     #about-main .jumbotron {
       height: 595px !important;
     }
@@ -571,10 +593,16 @@ font-size: 35px;
       border-radius: 20px;
       background: #fff;
     }
+            .banner-text-1 {
+              padding: 80px 0px 0px 0px;
+            }
 }
 @media screen and (min-width: 2560px) {.navbar .container {
     padding-left: 35px;
     border-radius: 20px;
     background: #fff;
   }
+        .banner-text-1 {
+          padding: 80px 0px 0px 0px;
+        }
 }
