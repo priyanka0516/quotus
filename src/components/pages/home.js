@@ -1,17 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './style.css';
 import './responsive.css';
-import { Link } from "react-router-dom";
-import { NavLink } from "react-bootstrap";
-import { useNavigate } from 'react-router-dom';
 const Home = () => {
   // const navigate = useNavigate();
   // Function to navigate to another page when the button is clicked
 
-  
     return (
     <>
-    <div className="banner1">
+    <div className="banner1"id="home-company">
       <div className="section-intro">
         <div className="container">          
         <div className="row">

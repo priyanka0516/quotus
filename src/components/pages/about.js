@@ -1,8 +1,9 @@
 import React from "react";
 const About = () => {
+    
 return ( 
-    <>
-    <div className="single-room">
+    <div >
+    <div className="single-room" id="companyabout">
         <div className="section-intro">
             <h2 className="section-intro-title">About Us</h2>
         </div>     
@@ -63,7 +64,7 @@ return (
         </div>
     </div> 
     </div>
-    </>
+    </div>
   );
 };
 export default About; 

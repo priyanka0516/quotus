@@ -1,8 +1,9 @@
 import React from "react";
 const Service = () => {
+
   return (
     <>   
-     <div className="service">
+     <div className="service" id="company-service">
       <div className="section-intro">
         <h2 className="section-intro-title">Services</h2>
       </div>     

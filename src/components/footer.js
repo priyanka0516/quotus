@@ -68,7 +68,7 @@ const Footer = () => {
                 <div className="footer-links">
                     <h4>Contact us</h4>
                     <ul>
-                    <li><p className="vvv"><span>Mobile:</span><a href="tel:PHONE_NUM"> +91 9777403555</a><br/></p></li>
+                    <li><p className="vvv"><span>Mobile:</span><a href="tel:+91 9777403555"> +91 9777403555</a><br/></p></li>
                     <li><p className="vvv" id="mail-end"><span>Mail:</span><a href="mailto:info@quotus.co.in">info@quotus.co.in</a><br/></p></li>
                     </ul>             
                   </div>
