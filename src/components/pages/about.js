@@ -47,9 +47,9 @@ return (
             <div className="col-lg-5">
                 <ul>
                     <li><span><img className="our-plan" src={require('./../images/strategy.png')} alt=""/>Strategy & Planning</span></li>
-                    <li><span><img className="our-plan" src={require('./../images/ui-design.png')} alt=""/>Website Designing</span></li>
+                    <li><span><img className="our-plan" src={require('./../images/ui-design.png')} alt=""/>Designing</span></li>
                     <li><span><img className="our-plan" src={require('./../images/agile.png')}  alt=""/>Development</span></li>
-                    <li><span><img className="our-plan" src={require('./../images/test.png')} alt="" />Manual Testing</span></li>
+                    <li><span><img className="our-plan" src={require('./../images/test.png')} alt="" />Manual /Automation Testing</span></li>
                     <li><span><img className="our-plan" src={require('./../images/success1.png')} alt=""/>Successful Result</span></li>
                 </ul>
             </div>

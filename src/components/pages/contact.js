@@ -126,7 +126,7 @@ class Contact extends React.Component {
         <ul>
           <li className="contact-loop"><img className="bounce" src={require('./../images/phone.png')} alt="phone-icon"/></li>
           <li className="contact-loop"><p className="contact-bold">Call Here</p></li>
-          <li className="contact-loop"><span className="adrs"><a href="tel:PHONE_NUM"className="adrs"> +91 9777403555</a></span></li>
+          <li className="contact-loop"><span className="adrs"><a href="tel:+91 9777403555"className="adrs"> +91 9777403555</a></span></li>
         </ul>
         </div>
         <div className="col-md-4">

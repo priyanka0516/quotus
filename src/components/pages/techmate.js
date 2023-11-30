@@ -23,7 +23,7 @@ export default function Artificial() {
             </div>
             </div>
             <div className="left-text">
-              <p>TechMate is a cutting-edge online platform designed exclusively for  Computer Science students. It's more than just a chatbot; it's your personalized AI study companion that understands your learning needs and adapts to your individual style of questioning. Whether you're tackling complex algorithms, debugging code, or delving into the intricacies of data structures, TechMate is your go-to resource for instant assistance.</p>
+              <p>TechMate is a cutting-edge online platform designed exclusively for  Computer Science students. It's more than just a chatbot it's your personalized AI study companion that understands your learning needs and adapts to your individual style of questioning. Whether you're tackling complex algorithms, debugging code, or delving into the intricacies of data structures, TechMate is your go-to resource for instant assistance.</p>
             </div>
             {/*<button onClick={openGitHubPage} id="gitbutton">Read More</button> */}
             </div>

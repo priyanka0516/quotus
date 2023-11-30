@@ -12,7 +12,7 @@ const Service = () => {
             <div className="row">
                 <div className="col-lg-10 offset-lg-1">
                     <div className="cta-content">
-                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
+                        <h2>Don't <em>think</em>, begin <em>today</em>!</h2>
                         <p>Quotus Software Solutons, that has been offering best IT services to you. At Quotus, we go beyond helping businesses transform through technology.We accept the call to build what you need.Quotus have power to create great solutions and technology to implement it. Think of abstractions then code.
                         </p>
                     </div>
@@ -128,7 +128,7 @@ const Service = () => {
       <div className="row2-container">
         <div className="box orange">
           <h2 className="inner-heading">BlockChain</h2>
-          <p className="inn-heading">We are a blockchain dapps company India provides a decentralized secure application for client</p>
+          <p className="inn-heading">We are a blockchain dapps company India provides a decentralized secure application for client.</p>
           <img className="box-img" src="https://assets.codepen.io/2301174/icon-karma.svg" alt="www"/>
         </div>
       </div>

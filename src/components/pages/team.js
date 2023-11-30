@@ -130,7 +130,7 @@ export default function Team() {
         <div className='row'>
             <div className='col-md-12'>
             <div className='all-tech-sec'>
-                <h3>JAVA / Spring Boot</h3>       
+                <h3>Java / Spring Boot</h3>       
                 <div className='all-tech_box'>
                     <div className="all-tech_box_img">
                         <img src={require('./../assets/java1.png')} alt="Java"/>

@@ -20,7 +20,7 @@ const Home = () => {
             <p>Developing company where we endeavor on highly proficient,
             propitious and cost-effective software products. Quotus have highly
             skilled personnel's offering software products using the best
-            innovative minds, skills and using cutting-edge technologies</p>
+            innovative minds, skills and using cutting-edge technologies.</p>
           </div>
           <div className="col-lg-5 col-12">       
             <div className="about_img">
@@ -182,7 +182,7 @@ const Home = () => {
                 <img src={require('./../images/target.png')} id="tech-logo" alt="java"/>
               </div>
                 <h3>Our Mission</h3>
-                <p className="paragraph">Quotus want to provide every business a digital platform hence growth by using our innovation, ideas, creativity and technology. Quotus will create a change for the technically unprivileged Businesses in the meantime help them achieve a global presence. We believe in the value and opportunities available for us and our esteemed customers. Quotus intents to perceive the customer's requirements and expectations and deliver the software products which are prerequisite tools for their growth</p>
+                <p className="paragraph">Quotus want to provide every business a digital platform hence growth by using our innovation, ideas, creativity and technology. Quotus will create a change for the technically unprivileged Businesses in the meantime help them achieve a global presence. We believe in the value & opportunities available for us & our esteemed customers. Quotus intents to perceive the customer's requirements & expectations and deliver the software products which are prerequisite tools for their growth.</p>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate">
@@ -200,10 +200,10 @@ const Home = () => {
         </div>
         </div>
     </div> 
-    <div className='all-service'>
+    <div className='client_logo-block client_logo_block_home1 experties'>
       <div className='container'>
         <div className="row mb-4">
-          <div className="col-md-6">
+          <div className="col-lg-4 col-md-12 col-sm-12">
             <div className="tech-desc">
               <div className="section-heads">
                 <h3 style={{textAlign:'left'}}>Our<span className="content-text"> Technologies</span></h3></div>
@@ -214,36 +214,86 @@ const Home = () => {
                 <p mt-2>Whether you are a startup or an established business, be it a Food Delivery App or Market place, be it because of the current market situation or natural business growth, be it “Mobile-only” or “Mobile First”, If you want your app to be developed, We can help you by brainstorming the concept, application requirement and help you bring your thoughts on paper and app.</p>
             </div>
           </div>
-        <div className="col-md-6">
-          <div className="lst-box">
+          <div className="col-lg-8 col-md-12 col-sm-12 ">
+            <div className="hexagon our_client"><img src={require('./../assets/android-logo.png')} alt="android" className="img-responsive" /> <span>Android</span> </div>
+                <div className="hexagon our_client"><img src={require('./../assets/java-logo.png')} alt="android" className="img-responsive" /> <span>Java</span> </div>
+                <div className="hexagon our_client"><img src={require('./../assets/machine-learning.png')} alt="android" className="img-responsive" /> <span>ML</span> </div>
+                <div className="hexagon our_client"><img src={require('./../assets/flutter-logo.png')} alt="android" className="img-responsive" /> <span>Flutter</span> </div>
+                <div className="hexagon our_client"><img src={require('./../assets/cardano.png')} alt="android" className="img-responsive" /> <span>Cardano</span> </div>
+                <div className="hexagon our_client"><img src={require('./../assets/ios-logo.png')} alt="android" className="img-responsive" /> <span>IOS</span> </div>
+                <div className="hexagon our_client"><img src={require('./../assets/mern-logo.png')} alt="android" className="img-responsive" /> <span>MERN</span> </div>
+                {/* <div className="hexagon our_client "> <img src={require('./../assets/angular-logo.png')} alt="android" class="img-responsive" /> <span>Angular</span> </div> */}
+          <div className="secndrow">
+            <div className="hexagon our_client"><img src={require('./../assets/Azure-logo.png')} alt="android" class="img-responsive" /><span>Azure</span></div>
+          <div className="hexagon our_client"><img src={require('./../assets/spring-logo.png')} alt="android" class="img-responsive" />
+            <span>Spring</span>
+          </div>
+          <div className="hexagon our_client "> <img src={require('./../assets/HTML5-logo.png')} alt="android" class="img-responsive" />
+            <span>Html5</span>
+          </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/ISO_C_logo.png')} alt="android" class="img-responsive" />
+            <span>Web3</span>
+          </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/nodejs-logo.png')} alt="android" class="img-responsive" /><span>Node jS</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/PHP-logo.png')} alt="android" className="img-responsive" />
+            <span>PHP</span>
+          </div>
+             <div className="hexagon our_client"><img src={require('./../assets/Python-logo.png')} alt="android" className="img-responsive"/><span>Python</span></div>
+        </div>
+          {/* <div className="lst-box">
           <div className='row'>     
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../assets/cardano.png')} alt="service3"/></div><h4>Cardano</h4>
-              {/* <p>Cardano brings a new standard in technology – open and inclusive – to challenge the old and activate a new age of sustainable, globally-distributed innovation.</p> */}
-            </div>
-            <div className="keyfeature-card"><div className="box-transparent" ><img src={require('./../images/java.png')} alt="service1"/></div><h4>Java</h4>
-              {/* <p>Our Java development team commenced many projects to develop & manage various applications.</p> */}</div>
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/python.png')} alt="service2"/></div><h4>Python</h4>
-                {/* <p>Our Team makes the entire software development flow, from business analysis and planning to integrate Python with cloud services [AWS].</p> */}
-            </div>   
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/science.png')} alt="service4"/></div><h4>React Native</h4></div>
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/MERN-logo.png')} alt="service5" style={{ height: '60px' }} /></div><h4>MERN</h4>
-              {/* <p>Quotus provides Web UI/UX development services Odisha is the first choice for our customers. Our creation and innovative ideas to boost the efficiency and productivity.</p> */}
-            </div>
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/iot.png')} alt="service6"/></div><h4>IOT</h4>
-              {/* <p>Quotus team is one of the most exciting developments in recent times. It will impact all our lives and revolutionize the way we interact with the world.</p> */}
-            </div>
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/haskell1.png')} alt="service5"/></div><h4>Haskell</h4>
-              {/* <p>Quotus provides Web UI/UX development services Odisha is the first choice for our customers. Our creation and innovative ideas to boost the efficiency and productivity.</p> */}
-            </div>
-            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/cs.png')} alt="service6"/></div><h4>AI/ML</h4>
-              {/* <p>Quotus team is one of the most exciting developments in recent times. It will impact all our lives and revolutionize the way we interact with the world.</p> */}
-            </div>
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../assets/cardano.png')} alt="service3"/></div><h4>Cardano</h4></div>
+            <div className="keyfeature-card"><div className="box-transparent" ><img src={require('./../assets/java-logo.png')} alt="service1"/></div><h4>Java</h4></div>
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/python.png')} alt="service2"/></div><h4>Python</h4></div>   
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../assets/React-logo.png')} alt="service4"/></div><h4>React Native</h4></div>
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/MERN-logo.png')} alt="service5" style={{ height: '60px' }} /></div><h4>MERN</h4></div>
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/iot.png')} alt="service6"/></div><h4>IOT</h4></div>
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../images/haskell1.png')} alt="service5"/></div><h4>Haskell</h4> </div>
+            <div className="keyfeature-card"><div className="box-transparent"><img src={require('./../assets/machine-learning.png')} alt="service6"/></div><h4>AI/ML</h4></div>
           </div>
+          </div> */}    
+        <div className=" thrddrow">
+          <div className="hexagon our_client "> <img src={require('./../assets/AI.png')} alt="android" className="img-responsive" /> <span>AI</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/CSS3_logo.png')} alt="android" className="img-responsive" /><span>CSS3</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/React-logo.png')} alt="android" className="img-responsive" /><span>React Js</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/mean-logo.png')} alt="android" className="img-responsive" /> <span>MEAN Stack</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/ethereum-logo.png')} alt="android" className="img-responsive" /> <span>Ethereum</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/haskell-logo.png')} alt="android" className="img-responsive" /><span>Haskell</span></div>
+  <div className="hexagon our_client "> <img src={require('./../assets/iot-logo.png')} alt="android" class="img-responsive" /> <span>IOT</span> </div>
+        
+        </div>
+        <div className=" secndrow">
+          <div className="hexagon our_client ">  <img src={require('./../assets/atla.png')} alt="android" className="img-responsive"/><span>Atala</span></div>
+          <div className="hexagon our_client "> <img src={require('./../assets/blockchain-logo.png')} alt="android" className="img-responsive" />
+            <span>BlockChain</span>
           </div>
+          <div className="hexagon our_client ">  <img src={require('./../images/hadoop.png')} alt="android" className="img-responsive" />
+            <span>Hadoop</span>
+          </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/plutus-logo.png')} alt="android" className="img-responsive" />
+            <span>Plutus</span>
+          </div>
+          <div className="hexagon our_client "> <img src={require('./../assets/marlowe-logo.png')} alt="android" className="img-responsive" /> <span>Marlowe</span> </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/django-logo.png')} alt="android" className="img-responsive" />
+            <span>Django</span>
+          </div>
+          <div className="hexagon our_client ">  <img src={require('./../assets/angular-logo.png')} alt="android" className="img-responsive" />
+            <span>Angular</span>
           </div>
         </div>
+        <div className="thrddrow">
+          <div className="hexagon our_client"><img src={require('./../assets/mesh-logo.png')} alt="android" className="img-responsive"/><span>Mesh Js</span></div>
+          <div className="hexagon our_client"><img src={require('./../images/solidity.png')} alt="android" className="img-responsive"/><span>Solidity</span></div>
+          <div className="hexagon our_client"><img src={require('./../assets/typescript-logo.png')} alt="android" className="img-responsive"/><span>Typescript</span></div>
+          <div className="hexagon our_client"><img src={require('./../assets/java-script.png')} alt="android" className="img-responsive"/><span>Js</span></div>
+          <div className="hexagon our_client"><img src={require('./../assets/next-js-logo.png')} alt="android" className="img-responsive"/><span>Next Js</span></div>
+          <div className="hexagon our_client"><img src={require('./../assets/native.png')} alt="android" className="img-responsive"/><span>React Native</span></div>
+          <div className="hexagon our_client"><img src={require('./../assets/sap-logo.png')} alt="android" className="img-responsive"/><span>SAP</span></div>
+        </div>
+        </div>
       </div>
-    </div>
+          </div>
+          </div>
       <div className="client-area">
         <div className="container-fluid">   
           <div className="wrapper">
