@@ -5,7 +5,7 @@ export default function Sap() {
       <>
         <div className="sap">
             <div className="section-intro">
-             <h2 className="section-intro-title">SAP</h2>
+             <h2 className="section-intro-title">Data Management</h2>
             </div>     
           </div>
         <div className="section" id="about">
@@ -16,7 +16,7 @@ export default function Sap() {
                 </div>
                 <div className="right-text col-lg-7 col-md-12 col-sm-12 mobile-top-fix">
                     <div className="left-text">
-                    <h3 className='sap-content'>Improve Your Operations with Expert Data Management Services using SAP Solution</h3>
+                    <h3 className='sap-content'>Improve your operations with expert data management services using SAP solution</h3>
                     </div>
                     </div>
                 </div>
@@ -31,7 +31,7 @@ export default function Sap() {
                     <div className='col-md-10'>
                         <div className='tool-text'>
                             <h3>"Streamline Your Data Migration with Modern ETL Tool"</h3>
-                            <p>ETL (Extract, Transform, Load) tools are a fundamental component of modern data integration and data management processes. In the modern world, ETL tools have evolved to handle large volumes of data from various sources, transform it into usable formats, and load it into target systems efficiently. </p>
+                            <p>ETL (Extract, Transform, Load) tools are a fundamental component of modern data integration and data management processes. In the modern world, ETL tools have evolved to handle large volumes of data from various sources, transform it into usable formats and load it into target systems efficiently. </p>
                         </div>
                       </div>
                   </div>
@@ -80,7 +80,7 @@ export default function Sap() {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row" id="pool">
                 <div className="col-sm-9">
                     <p>Enterprises are facing unforeseen challenges to establish seamless integration process to exchange data across multiple enterprise applications usually used for reporting and data analysis and transactional business operations. Quotus Software Solution's data management  consultants can help your enterprise better manage and integrate its data, by providing a more powerful, scalable and robustly architected environment to handle the growth in variety, volume, integrity and velocity of data.
                     Specifically, we can help with the modernization of your data management solutions by improving performance and ease of use for end users, enhancing functionality, decreasing total cost of ownership while making it possible for like real-time data synchronization.
@@ -130,8 +130,8 @@ export default function Sap() {
                             <div style={{background:'#fff'}}></div>
                             <div></div>
                         </div>
-                            <p>In today's data-driven world, harnessing the full potential of your data is essential for business success. Talend ETL is your gateway to transforming raw data into actionable insights. Whether you are dealing with large datasets, multiple data sources, or complex data transformations, Talend ETL is the solution you need.<br/><br/>
-                            Talend ETL (Extract, Transform, Load) is a powerful and versatile data integration tool designed to help organizations extract, transform, and load data from various sources into a target destination, be it a data warehouse, database, or cloud platform.
+                            <p>In today's data-driven world, harnessing the full potential of your data is essential for business success. Talend ETL is your gateway to transforming raw data into actionable insights. Whether you are dealing with large datasets, multiple data sources or complex data transformations, Talend ETL is the solution you need.<br/><br/>
+                            Talend ETL (Extract, Transform, Load) is a powerful and versatile data integration tool designed to help organizations extract, transform and load data from various sources into a target destination, be it a data warehouse, database or cloud platform.
                             </p>
                         </div>
                     </div>

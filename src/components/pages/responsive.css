@@ -1,7 +1,42 @@
 @media (min-width: 0px) and (max-width: 425px){
+  .contactarea .section-intro {height: auto;}
+    .single-room .section-intro {
+        height: auto;
+      }
+  .double-room .section-intro{
+    height: auto;
+  }
+  #naturo-image{
+    height: auto;
+  }
+  .naturopura .section-intro {
+    height: auto;
+  }
+                            .sap .section-intro {
+                                height: auto;
+                              }
+  .galleryarea {
+   height: auto;
+}
+             .team .section-intro {
+               height: auto;
+             }
+                .service .section-intro {
+                  height: auto;
+                }
+    .section-intro-title {
+      text-align: center;
+      color: #fff;
+      font-size: 35px;
+      position: relative;
+      padding: 30px;
+    }
 .about_img img {
     width: 100%;
     transition: none;
+}
+#pool{
+  flex-direction: column-reverse;
 }
 .banner1 .section-intro {height: auto;}
   .why-us {font-size: 28px;}
@@ -240,6 +275,7 @@
     }
 }
 @media (min-width: 426px) and (max-width: 767px){
+ 
   .client_logo-block ul li {
     text-align: left;
   }
@@ -638,7 +674,6 @@ font-size: 35px;
     .fashion_industry_innerbox {
       min-height: 260px;
     }
-  
     .development_process_innerboxs ul li {
       height: 214px;
     }
@@ -647,9 +682,9 @@ font-size: 35px;
     }
   }
 @media(max-width:767px) { 
-      .client_logo-block {
-          padding: 70px 0 100px 0 !important;
-        }
+  .client_logo-block {
+    padding: 70px 0 100px 0 !important;
+  }
   .requirement_para {
     font-size: 12px;
   }
@@ -693,6 +728,9 @@ font-size: 35px;
 }
 }       
 @media (min-width: 1024px) and (max-width: 1440px){
+  .client_logo-block .our_client span {
+    line-height: 13px;
+  }
   .banner1 .section-intro {
     height: auto;
     padding: 100px 0px 0px 0px;
@@ -780,4 +818,32 @@ font-size: 35px;
    float: none;
    margin-bottom: 27px;
  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .client_logo-block .our_client {
+      float: left;
+      text-align: center;
+    }
+  .client_logo-block .our_client span {
+      line-height: 15px;
+      padding: 3px;
+    }
+.hexagon {
+  width: 82px !important;
+  height: 82px !important;
+  border: 1px solid #e5e5e5 !important;
+  padding: 9px !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+   }
+        .hexagon:before {
+          transform: none;
+        }
+    
+        .hexagon:after {
+          transform: none;
+        }
 }

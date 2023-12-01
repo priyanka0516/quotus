@@ -59,7 +59,7 @@ const Home = () => {
                 <div className="col-lg-4 col-md-4">
                   <div className="boxcard shape-4">
                   <h2>Domain Expertise</h2>
-                  <p className="gp">With multiple projects done on Travel, Healthcare, Ecommerce, Utilities, and more. We know the trends well.</p>
+                  <p className="gp">With multiple projects done on Travel, Healthcare, Ecommerce, Utilities and more. We know the trends well.</p>
                   </div>
                 </div>
                  <div className="col-lg-4 col-md-4">
@@ -80,7 +80,7 @@ const Home = () => {
                  <div className="col-lg-4 col-md-4">
                   <div className="boxcard shape-2">
                     <h2>Workflow</h2>
-                    <p className="gp">With regular milestone tracking, reporting, & adherence to best project management practices.</p>
+                    <p className="gp">With regular milestone tracking, reporting & adherence to best project management practices.</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-4">
@@ -142,7 +142,7 @@ const Home = () => {
                 <div className="timeline-content">
                   <h3 className="title">An overview of Quotus</h3>
                     <p className="description">
-                      A Company was commenced to understand the strategic challenges acquired to solve your problems.We promise to help you.
+                      A Company was commenced to understand the strategic challenges acquired to solve your problems. We promise to help you.
                     </p>
                 </div>
               </div>
@@ -178,7 +178,7 @@ const Home = () => {
                 <img src={require('./../images/target.png')} id="tech-logo" alt="java"/>
               </div>
                 <h3>Our Mission</h3>
-                <p className="paragraph">Quotus want to provide every business a digital platform hence growth by using our innovation, ideas, creativity and technology. Quotus will create a change for the technically unprivileged Businesses in the meantime help them achieve a global presence. We believe in the value & opportunities available for us & our esteemed customers. Quotus intents to perceive the customer's requirements & expectations and deliver the software products which are prerequisite tools for their growth.</p>
+                <p className="paragraph">Quotus want to provide every business a digital platform hence growth by using our innovation, ideas, creativity and technology. Quotus will create a change for the technically unprivileged businesses in the meantime help them achieve a global presence. We believe in the value & opportunities available for us & our esteemed customers. Quotus intents to perceive the customer's requirements & expectations and deliver the software products which are prerequisite tools for their growth.</p>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate">
@@ -207,7 +207,7 @@ const Home = () => {
                   <div></div>
                   <div></div>
                 </div>
-                <p mt-2>Whether you are a startup or an established business, be it a Food Delivery App or Market place, be it because of the current market situation or natural business growth, be it “Mobile-only” or “Mobile First”, If you want your app to be developed, We can help you by brainstorming the concept, application requirement and help you bring your thoughts on paper and app.</p>
+                <p mt-2>Whether you are a startup or an established business, be it a Food Delivery App or Marketplace, be it because of the current market situation or natural business growth, be it “Mobile-only” or “Mobile First”, If you want your app to be developed, We can help you by brainstorming the concept, application requirement and help you bring your thoughts on paper and app.</p>
             </div>
           </div>
           <div className="col-lg-8 col-md-12 col-sm-12 ">
@@ -320,27 +320,27 @@ const Home = () => {
             <div className="our_partners">
             <ul className="bronzee margin-t">
               <li className="cntr_li">
-								<a href="/#" target="_blank">
+								<a target="_blank">
 								  <img src={require('./../images/mjunction_logo.png')} alt="heriatage_logo"/>
 								</a>
               </li>
               <li className="cntr_li">
-								<a href="/#" >
+								<a target="_blank" >
 								  <img src={require('./../images/cardano-logo.png')} alt="cardano_logo"/>
 								</a>
 							</li>
-							<li>
-								<a href="/#" target="_blank">
+							<li className="cntr_li">
+								<a target="_blank">
 								<img src={require('./../images/odisha.png')} alt="ohodisha_logo"/>
 								</a>
 							</li>
-							<li>
-								<a href="/#" target="_blank">
+							<li className="cntr_li">
+								<a target="_blank">
 								<img src={require('./../images/Cloud10.png')}alt="cloud10_logo"/>
 								</a>
 							</li>
-							<li>
-								<a href="/#">
+							<li className="cntr_li">
+								<a>
 							  <img src={require('./../images/bima.png')} alt="bima_logo"/></a>
 							</li>
 							<li className="cntr_li">
@@ -358,7 +358,7 @@ const Home = () => {
 							  </a>
               </li>
               <li className="cntr_li">
-								<a href="/#" target="_blank">
+								<a target="_blank">
 								  <img src={require('./../images/Shree_Jagannath.png')} alt="heriatage_logo"/>
 								</a>
 							</li>

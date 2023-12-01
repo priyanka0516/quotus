@@ -23,7 +23,7 @@ export default function Artificial() {
             </div>
             </div>
             <div className="left-text">
-              <p>TechMate is a cutting-edge online platform designed exclusively for  Computer Science students. It's more than just a chatbot it's your personalized AI study companion that understands your learning needs and adapts to your individual style of questioning. Whether you're tackling complex algorithms, debugging code, or delving into the intricacies of data structures, TechMate is your go-to resource for instant assistance.</p>
+              <p>TechMate is a cutting-edge online platform designed exclusively for  Computer Science students. It's more than just a chatbot it's your personalized AI study companion that understands your learning needs and adapts to your individual style of questioning. Whether you're tackling complex algorithms, debugging code or delving into the intricacies of data structures, TechMate is your go-to resource for instant assistance.</p>
             </div>
             {/*<button onClick={openGitHubPage} id="gitbutton">Read More</button> */}
             </div>
@@ -40,7 +40,7 @@ export default function Artificial() {
                             </div>
                             <h3>Web App Integration</h3>
                             <p className="paragraph">Whether you're studying in your dorm room or at a local coffee shop, TechMate's web app is your virtual  partner. Accessible through your web browser, the TechMate web app brings the complete suite of AI-powered learning features to your laptop or desktop.
-                            Explore complex topics with ease by typing in your questions or describing concepts in your own words. TechMate's smart algorithms quickly analyze your input and provide you with in-depth responses, ensuring that you understand the underlying principles. The web app's intuitive interface makes navigating through subjects, accessing resources, and interacting with TechMate a breeze.</p>
+                            Explore complex topics with ease by typing in your questions or describing concepts in your own words. TechMate's smart algorithms quickly analyze your input and provide you with in-depth responses, ensuring that you understand the underlying principles. The web app's intuitive interface makes navigating through subjects, accessing resources and interacting with TechMate a breeze.</p>
                         </div>
                         </div>
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 aos-init aos-animate">
@@ -49,8 +49,8 @@ export default function Artificial() {
                             <img src={require('./../images/app-development.png')}  id="tech-logo" alt="python"/>
                             </div>
                             <h3>Mobile App Integration</h3>
-                            <p className="paragraph">Life is dynamic, and so is your learning journey. With the TechMate mobile app, you carry your personal AI  with you in your pocket. Whether you're commuting, waiting for a class to start, or taking a study break, the TechMate mobile app is there to assist you.
-                            Ask questions on the go using voice or text input. The mobile app's user-friendly design ensures a seamless experience on screens of all sizes. The integration also extends to notifications, so you never miss an opportunity to explore new concepts, delve into practice problems, or engage in insightful discussions with your fellow learners.</p>
+                            <p className="paragraph">Life is dynamic and so is your learning journey. With the TechMate mobile app, you carry your personal AI  with you in your pocket. Whether you're commuting, waiting for a class to start or taking a study break, the TechMate mobile app is there to assist you.
+                            Ask questions on the go using voice or text input. The mobile app's user-friendly design ensures a seamless experience on screens of all sizes. The integration also extends to notifications, so you never miss an opportunity to explore new concepts, delve into practice problems or engage in insightful discussions with your fellow learners.</p>
                         </div>
                         </div>
             </div>
@@ -72,21 +72,21 @@ export default function Artificial() {
             </div>
             <div className="row">
                 <div className="col-lg-12">
-                <p>With both web and mobile app integration, TechMate creates a holistic learning ecosystem that adapts to your lifestyle:
+                <p style={{padding:'10px 0px'}}><b>With both web and mobile app integration, TechMate creates a holistic learning ecosystem that adapts to your lifestyle:</b>
                   <br/>
-                  <b>1. Convenience:</b>Seamlessly switch between devices without losing your progress. Start researching on your laptop and continue on your smartphone without missing a beat.<br/>
-                  <b>2. Accessibility:</b>Break down the barriers of time and location. Access TechMate whenever inspiration strikes, whether you're at home, in a library, or waiting in line.
+                  <b>1. Convenience : </b>Seamlessly switch between devices without losing your progress. Start researching on your laptop and continue on your smartphone without missing a beat.<br/>
+                  <b>2. Accessibility : </b>Break down the barriers of time and location. Access TechMate whenever inspiration strikes, whether you're at home, in a library or waiting in line.
                   <br/>
-                  <b>3. Collaboration:</b>Engage with your peers on the platform, share insights, and collaborate on challenging problems. TechMate fosters a sense of community among learners pursuing B.Tech and Computer Science.
+                  <b>3. Collaboration : </b>Engage with your peers on the platform, share insights and collaborate on challenging problems. TechMate fosters a sense of community among learners pursuing B.Tech and Computer Science.
                   <br/>
-                  <b>4. Continuous Learning:</b>Receive notifications, reminders, and personalized study suggestions tailored to your learning journey. TechMate's AI integration adapts to your evolving needs, ensuring you're always on the path to improvement.
+                  <b>4. Continuous Learning : </b>Receive notifications, reminders and personalized study suggestions tailored to your learning journey. TechMate's AI integration adapts to your evolving needs, ensuring you're always on the path to improvement.
                     </p>
                 </div>
            
             </div>
         </div>
       </div>
-            <div className="section" id="our-classes">
+      <div className="section" id="our-classes">
         <div className="container">
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
@@ -101,8 +101,8 @@ export default function Artificial() {
             </div>
             <div className="row">
                 <div className="col-lg-12">
-                <p>TechMate's integration across web and mobile platforms takes your educational experience to the next level. Embrace the convenience of having a dedicated AI study companion by your side, ready to provide you with comprehensive answers, engaging explanations, and a deeper understanding of your coursework.
-                    Whether you're engaging in a deep dive into programming languages, exploring intricate algorithms, or seeking clarification on complex theories, TechMate's AI integration is designed to enhance your learning process. Embrace the future of education with TechMate – where AI-driven knowledge is always within reach, on every device you own.
+                <p>TechMate's integration across web and mobile platforms takes your educational experience to the next level. Embrace the convenience of having a dedicated AI study companion by your side, ready to provide you with comprehensive answers, engaging explanations and a deeper understanding of your coursework.
+                    Whether you're engaging in a deep dive into programming languages, exploring intricate algorithms or seeking clarification on complex theories, TechMate's AI integration is designed to enhance your learning process. Embrace the future of education with TechMate – where AI-driven knowledge is always within reach, on every device you own.
                 </p>
                 </div>
             </div>

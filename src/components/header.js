@@ -1,5 +1,5 @@
 import React, { Component} from "react";
-import {Container,Nav,Navbar,NavDropdown}from 'react-bootstrap';
+import {Container,Nav,Navbar,NavDropdown, NavItem}from 'react-bootstrap';
 import { Link, NavLink } from "react-router-dom";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -48,9 +48,9 @@ export default class Header extends Component {
               <Link to={"/gallery"} id="nav">Gallery</Link>
             </Nav> 
             <NavDropdown title="Product" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/naturopura">Naturopura</NavDropdown.Item>
-          <NavDropdown.Item href="/techmate">TechMate</NavDropdown.Item>
-          <NavDropdown.Item href="/sap">Data Management</NavDropdown.Item>
+              <NavDropdown.Item href="/naturopura">Naturopura</NavDropdown.Item>
+              <NavDropdown.Item href="/techmate">TechMate</NavDropdown.Item>
+              <NavDropdown.Item href="/sap">Data Management</NavDropdown.Item>
           </NavDropdown>
           <Nav onClick={this.setNavClose}>
             <Link to={"/contact"} id="nav">Contact</Link> 

@@ -26,7 +26,7 @@ const Naturopura = () => {
                     </div>
                     </div>
                     <div className="left-text">
-                        <p>Introducing a hassle-free platform for farmers and consumers in India's agricultural market. This platform transforms the unorganized supply chain into a stable, transparent network. Using technology, farmers, and consumers can easily buy and sell products. It facilitates real-time information, sustainable resource use, streamlined trading, diversified markets, secure partnerships, and an efficient supply chain. Empowering farmers and promoting fair trade, contributes to the growth of India's agricultural sector.</p>
+                        <p>Introducing a hassle-free platform for farmers and consumers in India's agricultural market. This platform transforms the unorganized supply chain into a stable, transparent network. Using technology, farmers and consumers can easily buy and sell products. It facilitates real-time information, sustainable resource use, streamlined trading, diversified markets, secure partnerships and an efficient supply chain. Empowering farmers and promoting fair trade, contributes to the growth of India's agricultural sector.</p>
                     </div>
                     <button onClick={openGitHubPage} id="gitbutton">Read More</button>
                 </div>

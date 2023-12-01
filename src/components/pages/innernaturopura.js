@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import BackButton from './backbutton';
 export default function Innernaturopura() {
-  return (
-      <>
-        <div className="single-room">
+
+    return (   
+    <>
+    <BackButton/>
+    <div className="single-room" id="high">
         <div className="section-intro">
-            <h2 className="section-intro-title">           
-             
+            <h2 className="section-intro-title">Features               
             </h2>
         </div>     
-        </div> 
+    </div> 
     <div className="iot_consult_services">
         <div className="container">
             <div className="row">       
-                <div className="col-md-12 text-center mt-3">
-                    <h2>Features</h2>
-                </div>
+                <h1 className="why-us">All<span class="content-text"> Modules</span></h1>
+                         <div className="main-heading-domain-border-1 text-center">
+                            <div></div>
+                            <div></div>
+                        </div>
                 <div className="col-md-12">
                     <div className="row">
                         <div className="col-md-6">
@@ -115,7 +120,7 @@ export default function Innernaturopura() {
                             </div>  
                         <div className="col-md-6 mb-md-5">
                             <div className="iot_serv_sec ai_serv_sec">
-                                <h3>Equipment Manufacturers & Suppliers Module</h3>
+                                <h3>Consultants & Institutions Module</h3>
                                 <div className="serv_cate ai_services">
                                     <ul>
                                         <li><b>Consultant and Institution Profiles: </b>Consultants and agricultural institutions can create profiles within the module, showcasing their expertise, qualifications, experience, and services offered. This feature allows farmers to browse through profiles and select consultants or institutions that best match their requirements.
@@ -134,7 +139,7 @@ export default function Innernaturopura() {
                               </div>
                             <div className="col-md-6 mb-md-5 text-right">
                             <div className="iot_serv_sec ai_serv_sec">
-                                <h3>Equipment Manufacturers & Suppliers Module</h3>
+                                <h3>Processing Industries Module</h3>
                                 <div className="serv_cate ai_services">
                                     <ul>
                                         <li><b>Industry Showcase:</b> Processing industries can create profiles within the module to showcase their capabilities, processing capacities, product offerings, certifications, and any other relevant information. This feature allows them to highlight their expertise and attract potential farmers and distributors for collaboration.
@@ -170,17 +175,32 @@ export default function Innernaturopura() {
                         </div>
                           <div className="col-md-6 mb-md-5">
                             <div className="iot_serv_sec ai_serv_sec">
-                                <h3>User Module</h3>
+                                <h3>Cold Storages, Distributors & Retailers Module</h3>
                                 <div className="serv_cate ai_services">
                                     <ul>
-                                        <li><b>Product Listing and Search:</b> Marketing agencies can browse and search for available agricultural products from various international suppliers. The system provides a user-friendly interface to view detailed product information, including product name, description, images, origin, quality standards, and pricing.
+                                        <li><b>Availability Showcase: </b>Cold storage providers, distributors, and retailers can list their available storage units, distribution networks, and retail outlets within the module. They can provide details such as location, storage capacity, temperature control capabilities, transportation facilities, and any other relevant information to showcase their offerings.</li>
+                                        <li><b>Transaction Management: </b>The module offers a comprehensive transaction management system for cold storage providers, distributors, and retailers. They can manage transactions related to storage services, product distribution, and retail sales. The system facilitates order processing, inventory management, invoicing, and payment tracking, ensuring seamless transactions throughout the supply chain.</li>
+                                        <li><b>Inventory Management: </b>Cold storage providers, distributors, and retailers can utilize the module's inventory management features to track and manage their stock. They can monitor product quantities, expiration dates, and quality control measures to ensure optimal storage conditions and minimize product waste.</li>
+                                        <li><b>Transportation and Logistics:</b>The module may include features to manage transportation and logistics operations. Cold storage providers, distributors, and retailers can coordinate with logistics partners, track shipments, and optimize delivery routes to ensure efficient and timely movement of agricultural products.</li>
+                                        <li><b>Reporting and Analytics:</b>The module can provide reporting and analytics capabilities to generate insights into storage utilization, distribution patterns, sales performance, and other key metrics. These insights enable informed decision-making and help optimize operations for cold storage providers, distributors, and retailers.</li>
+                                        <li><b>Product Sourcing from Farmers: </b>The model provides exporters and marketing agencies with the capability to source agricultural products directly from farmers. They can establish direct connections with farmers, negotiate pricing and quantities, and arrange for product pickup from the farm locations. This feature streamlines the procurement process and ensures a direct supply chain connection between farmers and exporters/marketing agencies.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                              </div>   
+                            <div className="col-md-6 mb-md-5">
+                            <div className="iot_serv_sec ai_serv_sec">
+                                <h3>Exporters & Marketing Agencies Model</h3>
+                                <div className="serv_cate ai_services">
+                                    <ul>
+                                        <li><b>Product Listing and Search:</b>Product Listing and Search: Marketing agencies can browse and search for available agricultural products from various international suppliers. The system provides a user-friendly interface to view detailed product information, including product name, description, images, origin, quality standards, and pricing.
                                         </li>
-                                        <li><b>Ordering and Procurement:</b> Marketing agencies can initiate product orders by selecting the desired quantity, specifying shipping details, and providing any specific requirements. The system generates purchase orders and notifies the suppliers regarding the order details.
+                                        <li><b>Ordering and Procurement:</b> Marketing agencies can initiate product orders by selecting the desired quantity, specifying shipping details, and providing any specific requirements. The system generates purchase orders and notifies the suppliers regarding the order details.User flow Naturopura.
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            </div>      
+                            </div>     
                     </div>
                 </div>
             </div>
